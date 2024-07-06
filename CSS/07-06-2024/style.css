@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'sualehFont';
+    src: url('assets/Playwrite_CO/PlaywriteCO-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:  'customFontBold';
+    src: url('assets/Poppins/Poppins/Poppins-Bold.ttf');
+}
+
+/*  Universal Selector
+* {
+    background-color: wheat;
+    color: blue;
+} */
+
+
+/* Type Selector -   h5 {
+    color: green;
+}
+
+span {
+    color: blue;
+}
+
+p {
+    font-size: 50px;
+} */
+
+
+/*  Class Selectos .para_first {
+    font-size: 50px;
+}
+
+.para_color {
+    color: red;
+} */
+
+/* 
+.para_letter {
+    color: red ;
+} */
+
+/* #para_first {
+    color: red;
+}
+
+.para_first {
+    color: orange;
+}
+ */
+
+/*   Child Selectors
+ .countries>.country_name {
+    color: red;
+ } */
+
+/* Descendant Selecto  .countries a {
+    color: red;
+} */
+/* 
+
+h1+p {
+    color: red;
+} */
+
+/* p {
+    color: aqua;
+}
+ */
+
+
+/* p { */
+     /* color: #d5c95ac8; */
+     /* color: rgb(213,201,90); */
+/* } */
+
+
+/* .first {
+    background-color: blueviolet;
+} */
+
+
+
+
+/* .first {
+    width: 500px;
+    height: 500px;
+    background-color: palevioletred;
+}
+
+
+
+.second {
+    width: 400px;
+    height: 400px;
+    background-color: rgbA(0, 0, 0,1);
+} */
+
+/* h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* h5 {
+    font-family: 'sualehFont';
+} */
+
+/* h5 {
+    font-family: "Playwrite CO", cursive;
+}
+
+p {
+    font-family: 'customFontBold';
+} */
+
+
+
+p {
+    /* font-size: 10em; */
+    /* font-size: 150px; */
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: oblique;
+    text-transform: capitalize;
+
+    /* text-decoration: line-through; */
+    /* text-decoration: underline;
+    text-decoration: overline; */
+
+
+}
+
+/* h5 {
+    font-size: 500%;
+} */
+
+/* .line-para {
+    line-height: 100px;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+} */
+
+.line-para {
+    text-align: center;
+}
+
+
+
+.car_div {
+    width: 1000px;
+    height: 1000px;
+    background-image: url('assets/car.jpg');
+    background-size: contain;
+}
+
+a {
+    color: green;
+}

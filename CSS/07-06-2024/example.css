@@ -1,0 +1,3803 @@
+@font-face {
+    font-family: "WixMade";
+    src: url(../font/WixMadeforText-VariableFont_wght.ttf);
+  }
+  .FormImage img,
+  .BusinessProfileImage img {
+    border-radius: 50px;
+  }
+  
+  .text-primary {
+    color: #00C5C8 !important;
+  }
+  
+  .text-muted {
+    color: gray !important;
+  }
+  
+  body {
+    font-family: WixMade;
+  }
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+  body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #00C5C8;
+  }
+  body input:focus-visible {
+    outline: none !important;
+  }
+  body .formControl {
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid white;
+  }
+  body .formControl::-moz-placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  body .formControl::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  body .formControl:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  body .formControl:focus-visible {
+    outline: none !important;
+  }
+  body .header-OffCnavas {
+    background-color: #00c5c8 !important;
+  }
+  body .header-OffCnavas ul li a {
+    color: white;
+  }
+  body .header-OffCnavas .OffCanvasLogo {
+    width: 7rem;
+  }
+  body .header .firstNav {
+    transition: all 2s;
+  }
+  body .header .firstNav .MainLogoSetting {
+    width: 11rem;
+  }
+  body .header .firstNav .Header-Icon {
+    padding: 0.7rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #00C5C8;
+    border-radius: 50%;
+  }
+  body .header .firstNav .Header-Text h4,
+  body .header .firstNav .Header-Text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5C5353;
+  }
+  body .header .SecondNav {
+    transition: all 2s;
+    z-index: 500000 !important;
+    background-image: linear-gradient(rgba(0, 197, 200, 0.25), rgba(0, 197, 200, 0.15)) !important;
+  }
+  body .header .SecondNav .navbar-collapse .navbar-nav {
+    display: flex;
+    gap: 15px !important;
+  }
+  body .header .SecondNav .header-socialIcons {
+    width: 1rem;
+  }
+  body .header .SecondNav ul {
+    display: flex;
+  }
+  body .header .SecondNav ul li a {
+    color: white;
+    font-size: 16px !important;
+  }
+  body .header .SecondNav ul li .nav_border {
+    width: 1px;
+    height: 80%;
+    display: block;
+    background: rgba(255, 255, 255, 0.25);
+    top: 4px;
+    position: relative;
+  }
+  body .header .SecondNav .toGveSocialMediaBorder {
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+  }
+  body .header .SecondNav .GetValuationButton {
+    background-color: transparent;
+    color: #00C5C8;
+    border: 1px solid #00C5C8;
+    border-radius: 0 !important;
+    padding: 10px 15px !important;
+    display: flex;
+    gap: 10px;
+  }
+  body .header .SecondNav .GetValuationButton:hover {
+    background-color: rgba(2, 175, 177, 0.25) !important;
+    border-radius: 0 !important;
+    color: white !important;
+    border: 1px solid #00C5C8;
+  }
+  body .header .SecondNav .GetValuationButton:hover svg {
+    color: red !important;
+    stroke: black !important;
+  }
+  body .offcanvas {
+    width: 80% !important;
+  }
+  body .hero-Section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/homeImage2.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+  body .hero-Section .HeroSectionStart {
+    color: white;
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body .hero-Section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .hero-Section .HeroSectionStart .dicoverMore {
+    width: -moz-max-content !important;
+    width: max-content !important;
+  }
+  body .hero-Section .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+  }
+  body .hero-Section .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .hero-Section .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+  }
+  body .hero-Section .HeroSectionStart .HeroSearchBar button:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .sell-section .FortuneHeadingLeft {
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: #e8e8e8;
+    width: -moz-max-content;
+    width: max-content;
+    border-left: 4px solid #00C5C8;
+  }
+  body .sell-section .contactUsButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .sell-section .contactUsButton:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .sell-section .LearnMoreButton {
+    background-color: transparent;
+    color: #00C5C8;
+    border: 1px solid #00C5C8;
+    border-radius: 0 !important;
+  }
+  body .sell-section .LearnMoreButton:hover {
+    background-color: rgba(2, 175, 177, 0.25) !important;
+    border-radius: 0 !important;
+    color: white !important;
+    border: 1px solid #00C5C8;
+  }
+  body .sell-section .Sell-Heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+    color: #00C5C8;
+  }
+  body .sell-section .Sell-card-Height .Sell-Left-Border {
+    border-left: 2px solid #00C5C8;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Para {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  body .section-WhoweAre .whoWeAre-Image {
+    height: 52rem;
+    width: 100%;
+    background-image: url("../images/midbannerimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  body .section-WhoweAre .whoWeAre-Image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    bottom: -146px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #00C5C8;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5c5353;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .first_sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder {
+    gap: 20px;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5C5353;
+  }
+  body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder .choose_us_spacer {
+    border: 1px solid #00C5C8 !important;
+  }
+  body .Section-Journey {
+    padding-top: 3rem;
+  }
+  body .Section-Journey .journey_para {
+    font-size: 18px;
+    padding: 10px 50px;
+  }
+  body .Section-Journey h1 {
+    color: #00C5C8;
+    margin-top: 3rem;
+  }
+  body .Section-Journey .JourneyImageSection .toSetItsPoistion {
+    top: -156px;
+  }
+  body .Section-Journey .JourneyImageSection .ExploreAllButton {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    color: white;
+    bottom: -82px;
+    left: 48%;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImages {
+    width: 18rem;
+    height: 18rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/wholesale.png);
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesSecond {
+    width: 18rem;
+    height: 18rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/logistics.png);
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesThird {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/retal.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesFourth {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/automob.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .journeyConstruction {
+    background-image: url("../images/construction.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .journeyEducation {
+    background-image: url("../images/education.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .journeyEntertainment {
+    background-image: url("../images/entertainment.jpg");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .marketing_space {
+    background-image: url("../images/marketing.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .franchiseSection {
+    background-image: url("../images/franchise.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .medicalSection {
+    background-image: url("../images/medical.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .onlineSection {
+    background-image: url("../images/online.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .transportSection {
+    background-image: url("../images/transport.png");
+    background-position: bottom;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesFifth {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/profes.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesSixth {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/manufacture.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesSeven {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/Technology.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesEight {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/fooddrink.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesNine {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/Health.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .JourneyImagesTen {
+    width: 18rem;
+    height: 18rem;
+    background-image: url("../images/cosmetics.png");
+    background-position: bottom;
+  }
+  body .Section-Journey .JourneyImageSection .toSetParagraph {
+    bottom: 10%;
+  }
+  body .section-Testemonial .SecondCardColor {
+    background-color: #00C5C8;
+  }
+  body .section-Testemonial .SecondCardColor h3 {
+    color: white;
+  }
+  body .section-Testemonial .SecondCardColor p {
+    color: white;
+  }
+  body .section-Testemonial .SecondCardColor .QuoteSign {
+    background-color: white !important;
+  }
+  body .section-Testemonial .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+  body .section-Testemonial .owl-carousel .owl-item img {
+    display: block;
+    width: 2rem;
+  }
+  body .section-Testemonial .owl-nav {
+    position: absolute;
+    top: -113px;
+    right: 24px;
+    display: flex;
+    gap: 1rem;
+  }
+  body .section-Testemonial .owl-nav button {
+    width: 2rem;
+    height: 2rem;
+    background-color: #00C5C8 !important;
+    border-radius: 50% !important;
+  }
+  body .section-Testemonial .TestemonialHeading {
+    font-size: 1rem;
+    font-weight: 400;
+    width: -moz-max-content;
+    width: max-content;
+    border-left: 4px solid #00C5C8;
+    background-color: #e8e8e8;
+  }
+  body .section-Testemonial .TestimonialMainHead {
+    font-weight: 600;
+    font-size: 2.1rem;
+  }
+  body .section-Testemonial .card .cardProfilePic {
+    width: 5rem;
+    height: 5rem;
+  }
+  body .section-Testemonial .card h3 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  body .section-Testemonial .card .QuoteSign {
+    background-color: #00C5C8;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+  }
+  body .Terms-ConditionModal .Agreement-Heading {
+    color: #00C5C8;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  body .Terms-ConditionModal .modal-Button-Close {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: 1px solid #00C5C8 !important;
+  }
+  body .Terms-ConditionModal .modal-Button-Close:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .Section-ContactUs .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  body .Section-ContactUs .custom-radio input[type=radio] {
+    display: none;
+  }
+  body .Section-ContactUs .custom-radio .radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #01060c;
+    border-radius: 25%;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: white;
+  }
+  body .Section-ContactUs .custom-radio .radio-btn::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-out;
+    color: #fff !important;
+  }
+  body .Section-ContactUs .custom-radio input[type=checkbox]:checked + .radio-btn::after {
+    color: #333;
+    background-color: #00c5c8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    border: none !important;
+    border-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .Section-ContactUs #contact {
+    position: absolute;
+    left: 3px;
+    display: none;
+  }
+  body .Section-ContactUs .Contact-RightForm input,
+  body .Section-ContactUs .Contact-RightForm textarea {
+    color: white;
+  }
+  body .Section-ContactUs .Contact-RightForm .select2-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  body .Section-ContactUs .Contact-RightForm .select2-container--default .select2-selection--single {
+    height: 100%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    display: flex;
+    align-items: center;
+    padding: 1rem !important;
+  }
+  body .Section-ContactUs .Contact-RightForm .select2-selection__rendered {
+    color: white;
+  }
+  body .Section-ContactUs .Contact-RightForm .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%;
+    display: flex;
+  }
+  body .Section-ContactUs .Contact-RightForm .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: white transparent transparent transparent !important;
+  }
+  body .Section-ContactUs .MainContactUsHeading {
+    width: -moz-max-content;
+    width: max-content;
+    border-left: 4px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  body .Section-ContactUs .ContactUs-Heading {
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+  }
+  body .Section-ContactUs .ContactUs-Paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    color: white;
+  }
+  body .Section-ContactUs .ContactUsBackground {
+    background: linear-gradient(90deg, rgb(27, 122, 133) 0%, rgb(0, 197, 200) 35%, rgb(169, 221, 222) 100%);
+  }
+  body .Section-ContactUs .SendMessageButton {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0 !important;
+    color: #00C5C8;
+  }
+  body .Section-ContactUs .ContactUs-Email .ContactUs-Icon {
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border-radius: 50%;
+    padding: 0.6rem;
+  }
+  body .Section-ContactUs .ContactUs-Email .ContactUs-Text h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+  }
+  body .Section-ContactUs .ContactUs-Email .ContactUs-Text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+  }
+  body .section-Blog .Blog-Main-Heading {
+    font-weight: 700;
+    font-size: 2.18rem;
+    line-height: 31px;
+    color: #00C5C8;
+  }
+  body .section-Blog .news_heading {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 63px;
+    color: #01060c;
+  }
+  body .section-Blog .Blog-Heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 31px;
+    color: #01060C;
+  }
+  body .section-Blog .Blog-Heading:hover {
+    color: #00C5C8;
+  }
+  body .section-Blog .toChangeWidth {
+    width: 70%;
+  }
+  body .section-Blog .Blog-Image {
+    width: 29rem !important;
+    height: 19.2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  body .section-Blog .Blog-Image .blog-image-setting {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100% !important;
+  }
+  body .section-Blog .BlogTogiveLeftBorder {
+    border-left: 3px solid #00C5C8;
+    padding-left: 1rem;
+  }
+  body .section-Blog .Blog-Text .Blog-Heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 31px;
+    color: #01060C;
+  }
+  body .section-Blog .Blog-Text .Blog-Paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #666C89;
+  }
+  body .section-Blog .Blog-Text .Blog-BulletPoints {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  body .section-Blog .LearnMoreButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .section-Blog .LearnMoreButton:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .Listing-hero-Section {
+    background-image: url("../images/BlogViewBanner.jpg");
+       
+            background-size: cover;
+      padding-top: 3rem;
+      background-position: center;
+  }
+  body .Listing-hero-Section .HeroSectionStart {
+    color: white;
+    padding-top: 6rem;
+    margin-bottom: 8rem;
+  }
+  body .Listing-hero-Section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .Listing-hero-Section .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+    top: -43px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .Listing-hero-Section .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .Listing-hero-Section .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem !important;
+  }
+  body .Listing-hero-Section .HeroSectionStart .HeroSearchBar button:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .ToHighShow {
+    transition: 2s all;
+  }
+  body .TohightThis {
+    display: none;
+    transition: 2s all;
+  }
+  body .Section-Filter .LeftSection {
+    border-right: 2px solid #9199A3;
+  }
+  body .Section-Filter .LeftSection .AccordianTopBorder {
+    border-top: 1px solid #9199A3 !important;
+  }
+  body .Section-Filter .LeftSection .Filter-Heading {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  body .Section-Filter .LeftSection .accordion-body {
+    border: none;
+    box-shadow: none;
+    border-radius: 0 !important;
+  }
+  body .Section-Filter .LeftSection .accordion-button {
+    border: none;
+    box-shadow: none !important;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .Section-Filter .LeftSection .accordion-item {
+    border-radius: 0;
+    border: none;
+  }
+  body .Section-Filter .LeftSection .accordion-item .Filter-CheckBox {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  body .Section-Filter .LeftSection .accordion-item ul li label {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  body .Section-Filter .LeftSection .accordion-item ul li .MoreItem {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #00C5C8;
+  }
+  body .Section-Filter .Right-Section .select2 {
+    width: -moz-max-content !important;
+    width: max-content !important;
+  }
+  body .Section-Filter .Right-Section .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 0 !important;
+    font-weight: 600;
+  }
+  body .Section-Filter .Right-Section .select2-container--default .select2-selection--single {
+    border: none;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter .FilterButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    width: 50%;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter .ShowingText {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter .ShowingText span {
+    color: #00C5C8;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul .nav-item {
+    width: 33.3% !important;
+    padding-left: 2px;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul li {
+    padding-left: 2px;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul li .tab-leftBorder {
+    border-left: 2px solid #9199A3;
+    padding-left: 1rem;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul li button {
+    border-radius: 0 !important;
+    padding-left: 0 !important;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul li button h3 {
+    color: #01060C;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter ul li button p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #01060C;
+  }
+  body .Section-Filter .Right-Section .Categories-Filter .nav-pills .nav-link.active,
+  body .Section-Filter .Right-Section .Categories-Filter .nav-pills .show > .nav-link {
+    border-bottom: 4px solid #00C5C8;
+    background-color: transparent;
+  }
+  body .Section-Filter .Right-Section .MainCards .card {
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .toSetImageText {
+    right: 10px;
+    bottom: 247px;
+    padding: 0.2rem 1rem !important;
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-title h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-price {
+    font-size: 12px;
+    font-weight: 500;
+    color: #01060C;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-MainPrice {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #00C5C8;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-Location {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #01060C;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-ProfilePic {
+    width: 3rem;
+    height: 3rem;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .card-UserName {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .SendNowButton {
+    border: 2px solid #00C5C8;
+    border-radius: 0 !important;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .SendNowButton:hover {
+    background-color: #dedede !important;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .EnquireNowButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: none;
+  }
+  body .Section-Filter .Right-Section .MainCards .card .EnquireNowButton:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .dicoverMore {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .dicoverMore:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .listingViewSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/dubai2.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  body .listingViewSection .HeroSectionStart {
+    color: white;
+  }
+  body .listingViewSection .HeroSectionStart h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  body .listingViewSection .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .listingViewSection .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+    top: -43px;
+    left: 12rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .listingViewSection .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .listingViewSection .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem !important;
+  }
+  body .business_search_section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/buyABusinesss.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  body .section-BusinessView .BusinessDetail {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .section-BusinessView .subHeadingSetting {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5C5353;
+  }
+  body .section-BusinessView .subPriceSetting {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #9199A3;
+  }
+  body .section-BusinessView .BusniessEnquireNowButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: none;
+  }
+  body .section-BusinessView .BusniessEnquireNowButton:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .section-BusinessView .BusinessProfileImage {
+    width: 4rem;
+    height: 4rem;
+  }
+  body .section-BusinessView .BusinessClientName {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .section-BusinessView .BusinessDesignation {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5C5353;
+  }
+  body .section-BusinessView .MessageIcon {
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00C5C8;
+  }
+  body .sectionBusinessOpportunity {
+    margin-bottom: 19rem !important;
+  }
+  body .sectionBusinessOpportunity .BusinessOportunityMain {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .sectionBusinessOpportunity .BusinessOppPara {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+    color: #5C5353;
+  }
+  body .sectionBusinessOpportunity .BusinessOppBullet {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #5C5353;
+  }
+  body .sectionBusinessOpportunity .BusinessOppBullet span {
+    font-weight: 500;
+    color: #01060C;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS {
+    background-image: url("../images/carbusiness.png");
+    padding: 7rem 0.2rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .ToSetMainWidth {
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .FormImage {
+    width: 6rem;
+    height: 6rem;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .ContactUsEquireNow {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: none;
+    background-color: white !important;
+    color: #00C5C8 !important;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .ContactUsEquireNow:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .TogiveRightBorder {
+    border-right: 2px solid white;
+  }
+  body .sectionBusinessOpportunity .toSetAllignmentOfPicture {
+    top: 66px;
+  }
+  body .sectionBusinessOpportunity .figure {
+    animation: all 3s;
+  }
+  body .sectionBusinessOpportunity .figure:hover {
+    animation: all 3s;
+  }
+  body .sectionBusinessOpportunity .figure:hover .overlay {
+    display: block !important;
+    animation: all 3s;
+  }
+  body .sectionBusinessOpportunity .toSetItemOnImage {
+    bottom: 11px;
+    left: 11px;
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+    padding: 4.5rem 5rem;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .HorizontalLIne {
+    border-bottom: 3px solid white;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .userName {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .userPositionTitle {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .ContactBrokerButton {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: none;
+    background-color: white !important;
+    color: #00C5C8 !important;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  body .sectionBusinessOpportunity .BusinessContactUS .ContactBrokerButton:hover {
+    background-color: #e2e2e2 !important;
+  }
+  body .BusinessViews-Section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  body .BusinessViews-Section {
+    background-size: 100% 100%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+  }
+  body .BusinessViews-Section .HeroSectionStart {
+    color: white;
+    z-index: 1;
+  }
+  body .BusinessViews-Section .HeroSectionStart h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 78px;
+  }
+  body .BusinessViews-Section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    border-left: 4px solid #00C5C8;
+  }
+  body .BusinessViews-Section .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+    top: -43px;
+    left: 12rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .BusinessViews-Section .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .BusinessViews-Section .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem !important;
+  }
+  body #panelsStayOpen-collapseFour .custom-radio,
+  body #panelsStayOpen-collapseFifth .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  body #panelsStayOpen-collapseFour .custom-radio input[type=radio],
+  body #panelsStayOpen-collapseFifth .custom-radio input[type=radio] {
+    display: none;
+  }
+  body #panelsStayOpen-collapseFour .custom-radio .radio-btn,
+  body #panelsStayOpen-collapseFifth .custom-radio .radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #01060c;
+    border-radius: 25%;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+  }
+  body #panelsStayOpen-collapseFour .custom-radio .radio-btn::after,
+  body #panelsStayOpen-collapseFifth .custom-radio .radio-btn::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-out;
+    color: #fff !important;
+  }
+  body #panelsStayOpen-collapseFour .custom-radio input[type=checkbox]:checked + .radio-btn::after,
+  body #panelsStayOpen-collapseFifth .custom-radio input[type=checkbox]:checked + .radio-btn::after {
+    color: #333;
+    background-color: #00c5c8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    border: none !important;
+    border-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #panelsStayOpen-collapseFour .customradiobutton,
+  body #panelsStayOpen-collapseFour #Manufact,
+  body #panelsStayOpen-collapseFour #FoodDrink,
+  body #panelsStayOpen-collapseFour #Entertain,
+  body #panelsStayOpen-collapseFour #sharjah,
+  body #panelsStayOpen-collapseFour #ajman,
+  body #panelsStayOpen-collapseFour #dubai,
+  body #panelsStayOpen-collapseFour #Jeddah,
+  body #panelsStayOpen-collapseFour #Rasal,
+  body #panelsStayOpen-collapseFour #New1,
+  body #panelsStayOpen-collapseFour #New2,
+  body #panelsStayOpen-collapseFour #New3,
+  body #panelsStayOpen-collapseFour #New4,
+  body #panelsStayOpen-collapseFour #New5,
+  body #panelsStayOpen-collapseFour #New6,
+  body #panelsStayOpen-collapseFour #New7,
+  body #panelsStayOpen-collapseFour #New8,
+  body #panelsStayOpen-collapseFour #New9,
+  body #panelsStayOpen-collapseFour #New10,
+  body #panelsStayOpen-collapseFour #New11,
+  body #panelsStayOpen-collapseFour #New12,
+  body #panelsStayOpen-collapseFour #New13,
+  body #panelsStayOpen-collapseFour #New14,
+  body #panelsStayOpen-collapseFour #New15,
+  body #panelsStayOpen-collapseFour #New16,
+  body #panelsStayOpen-collapseFour #New17,
+  body #panelsStayOpen-collapseFour #New18,
+  body #panelsStayOpen-collapseFour #New19,
+  body #panelsStayOpen-collapseFour #New20,
+  body #panelsStayOpen-collapseFour #New21,
+  body #panelsStayOpen-collapseFour #New22,
+  body #panelsStayOpen-collapseFour #New23,
+  body #panelsStayOpen-collapseFour #New24,
+  body #panelsStayOpen-collapseFifth .customradiobutton,
+  body #panelsStayOpen-collapseFifth #Manufact,
+  body #panelsStayOpen-collapseFifth #FoodDrink,
+  body #panelsStayOpen-collapseFifth #Entertain,
+  body #panelsStayOpen-collapseFifth #sharjah,
+  body #panelsStayOpen-collapseFifth #ajman,
+  body #panelsStayOpen-collapseFifth #dubai,
+  body #panelsStayOpen-collapseFifth #Jeddah,
+  body #panelsStayOpen-collapseFifth #Rasal,
+  body #panelsStayOpen-collapseFifth #New1,
+  body #panelsStayOpen-collapseFifth #New2,
+  body #panelsStayOpen-collapseFifth #New3,
+  body #panelsStayOpen-collapseFifth #New4,
+  body #panelsStayOpen-collapseFifth #New5,
+  body #panelsStayOpen-collapseFifth #New6,
+  body #panelsStayOpen-collapseFifth #New7,
+  body #panelsStayOpen-collapseFifth #New8,
+  body #panelsStayOpen-collapseFifth #New9,
+  body #panelsStayOpen-collapseFifth #New10,
+  body #panelsStayOpen-collapseFifth #New11,
+  body #panelsStayOpen-collapseFifth #New12,
+  body #panelsStayOpen-collapseFifth #New13,
+  body #panelsStayOpen-collapseFifth #New14,
+  body #panelsStayOpen-collapseFifth #New15,
+  body #panelsStayOpen-collapseFifth #New16,
+  body #panelsStayOpen-collapseFifth #New17,
+  body #panelsStayOpen-collapseFifth #New18,
+  body #panelsStayOpen-collapseFifth #New19,
+  body #panelsStayOpen-collapseFifth #New20,
+  body #panelsStayOpen-collapseFifth #New21,
+  body #panelsStayOpen-collapseFifth #New22,
+  body #panelsStayOpen-collapseFifth #New23,
+  body #panelsStayOpen-collapseFifth #New24 {
+    position: absolute;
+    left: 3px;
+    display: none;
+  }
+  body .enquire_confirmation {
+    height: 30rem;
+  }
+  body .enquire_confirmation .thanks_heading {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 63px;
+    color: #00C5C8;
+    margin-bottom: 35px;
+  }
+  body .enquire_confirmation .thanks_para {
+    color: #01060c;
+    font-size: 20px;
+    text-align: center;
+  }
+  body .enquire_confirmation .back_btn {
+    background-color: #009d9f !important;
+    color: white !important;
+    border-radius: 0 !important;
+    border: 1px solid #009d9f !important;
+    padding: 10px 20px;
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .enquire_confirmation .send_icon {
+    opacity: 0.5;
+  }
+  body .equireForm .Agreement-Heading {
+    color: #00C5C8;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  body .equireForm .Heading-Between {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  body .equireForm .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  body .equireForm .custom-radio input[type=radio] {
+    display: none;
+  }
+  body .equireForm .custom-radio .radio-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #01060c;
+    border-radius: 25%;
+    display: inline-block;
+    position: relative;
+    margin-right: 2px;
+  }
+  body .equireForm .custom-radio .radio-btn::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-out;
+    color: #fff !important;
+  }
+  body .equireForm .custom-radio input[type=checkbox]:checked + .radio-btn::after {
+    color: #333;
+    background-color: #00c5c8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    border: none !important;
+    border-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .equireForm .customradiobutton,
+  body .equireForm #Manufact,
+  body .equireForm #FoodDrink,
+  body .equireForm #Entertain,
+  body .equireForm #sharjah,
+  body .equireForm #ajman,
+  body .equireForm #dubai,
+  body .equireForm #Jeddah,
+  body .equireForm #Rasal {
+    position: absolute;
+    left: 3px;
+    display: none;
+  }
+  body .equireForm .wizard > .actions .disabled a,
+  body .equireForm .wizard > .actions .disabled a:hover,
+  body .equireForm .wizard > .actions .disabled a:active {
+    display: none !important;
+  }
+  body .equireForm .wizard > .actions a,
+  body .equireForm .wizard > .actions a:hover,
+  body .equireForm .wizard > .actions a:active {
+    width: 7rem;
+    text-align: center;
+    background: #00C5C8;
+    border-radius: 0;
+  }
+  body .equireForm .wizard > .actions a:hover,
+  body .equireForm .wizard > .actions a:hover:hover,
+  body .equireForm .wizard > .actions a:active:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .equireForm input {
+    padding: 0.7rem;
+  }
+  body .equireForm input:focus {
+    box-shadow: none !important;
+    border: 1px solid #00C5C8 !important;
+  }
+  body .equireForm #example-basic .number {
+    display: none !important;
+  }
+  body .equireForm #example-basic .content,
+  body .equireForm #example-basic .example-basic-p-0 {
+    background-color: transparent !important;
+    overflow: hidden !important;
+  }
+  body .equireForm #example-basic #example-basic-t-0 {
+    background-color: #666C89;
+  }
+  body .equireForm .wizard > .steps .current a,
+  body .equireForm .wizard > .steps .current a:hover,
+  body .equireForm .wizard > .steps .current a:active {
+    background: rgba(0, 197, 200, 0.6) !important;
+  }
+  body .equireForm .wizard > .content {
+    overflow-y: scroll;
+  }
+  body .equireForm .wizard > .content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+  body .equireForm .wizard > .content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+  body .equireForm .wizard > .content::-webkit-scrollbar-thumb {
+    background-color: #00C5C8;
+  }
+  body .equireForm .wizard > .content textarea {
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid #ccc;
+  }
+  body .equireForm .wizard > .content textarea::-moz-placeholder {
+    opacity: 1;
+    /* Firefox */
+  }
+  body .equireForm .wizard > .content textarea::placeholder {
+    opacity: 1;
+    /* Firefox */
+  }
+  body .equireForm .wizard > .content textarea:focus {
+    border-color: #00C5C8 !important;
+    box-shadow: none;
+  }
+  body .equireForm .wizard > .content textarea:focus-visible {
+    outline: none !important;
+  }
+  body .offcanvas-Filter .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  body .offcanvas-Filter .custom-radio input[type=radio] {
+    display: none;
+  }
+  body .offcanvas-Filter .custom-radio .radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #01060c;
+    border-radius: 25%;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+  }
+  body .offcanvas-Filter .custom-radio .radio-btn::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-out;
+    color: #fff !important;
+  }
+  body .offcanvas-Filter .custom-radio input[type=checkbox]:checked + .radio-btn::after {
+    color: #333;
+    background-color: #00c5c8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    border: none !important;
+    border-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .offcanvas-Filter #ex_bth,
+  body .offcanvas-Filter #ma_bth,
+  body .offcanvas-Filter #fd_bth,
+  body .offcanvas-Filter #en_bth,
+  body .offcanvas-Filter #shx_bth,
+  body .offcanvas-Filter #ajx_bth,
+  body .offcanvas-Filter #dux_bth,
+  body .offcanvas-Filter #jex_bth,
+  body .offcanvas-Filter #rakx_bth,
+  body .offcanvas-Filter #endone {
+    position: absolute;
+    left: 3px;
+    display: none;
+  }
+  body .privacy_head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/privacy.jpg") !important;
+  }
+  body .privacy_head h2 {
+    font-size: 2.5rem !important;
+  }
+  body .privacy_page,
+  body .terms_page {
+    font-size: 18px !important;
+  }
+  body .terms_head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/terms.jpg") !important;
+    background-position: center !important;
+  }
+  body .terms_head h2 {
+    font-size: 2.5rem !important;
+  }
+  body .Services-Section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/image 3.png");
+    background-size: 100% 100%;
+    height: 75vh;
+    background-position: bottom;
+    background-size: cover;
+  }
+  body .Services-Section .HeroSectionStart {
+    color: white;
+  }
+  body .Services-Section .HeroSectionStart h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  body .Services-Section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .Services-Section .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+    top: -43px;
+    left: 12rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .Services-Section .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .Services-Section .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem !important;
+  }
+  body .services-information .services-description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+  }
+  body .services-information .card {
+    background-color: #ecffff;
+    border: none;
+  }
+  body .services-information .card .card-icon-Setting {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #00C5C8;
+  }
+  body .services-information .card .card-title {
+    font-size: 1.56rem;
+    font-weight: 700;
+    line-height: 37.5px;
+  }
+  body .services-information .card .card-text {
+    font-size: 1.4rem;
+    color: #5C5353;
+    line-height: 33.2px;
+  }
+  body .services-information .card .card-body {
+    height: 27rem;
+  }
+  body .section-OurProcess .OurProcess-Heading {
+    font-size: 2.18rem;
+    font-weight: 700;
+    color: #01060C;
+  }
+  body .section-OurProcess .OurProcess-Paragraph {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #5C5353;
+  }
+  body .Our-Process-Picture .arrow-Image-Setting {
+    height: 7.5rem;
+  }
+  body .Our-Process-Picture .Main-Bullet-Paragraph {
+    font-size: 18px;
+  }
+  body .Our-Process-Picture .Main-Bullet-Points {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  body .section-KnowUs {
+    background-image: url("../images/knowusBetter.png");
+    height: -moz-max-content;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  body .section-KnowUs .section-KnowUs-left .KnowUs-Heading {
+    font-size: 2.18rem;
+    font-weight: 700;
+    color: white;
+  }
+  body .section-KnowUs .section-KnowUs-left .KnowUs-paragraph {
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  body .section-KnowUs .section-KnowUs-left .ContactUs {
+    background-color: #00C5C8 !important;
+    color: white;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  body .section-KnowUs .section-KnowUs-left .ContactUs:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  body .section-KnowUs .section-KnowUs-left .LearnMore {
+    background-color: transparent;
+    color: #00C5C8;
+    border: 1px solid #00C5C8;
+    border-radius: 0 !important;
+  }
+  body .section-KnowUs .section-KnowUs-left .LearnMore:hover {
+    background-color: rgba(2, 175, 177, 0.25) !important;
+    border-radius: 0 !important;
+    color: white !important;
+    border: 1px solid #00C5C8;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion-button::after {
+    background-image: url(../icon/add-circle.svg) !important;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion-button:not(.collapsed)::after {
+    background-image: url(../icon/minus-cirlce.svg) !important;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion {
+    --bs-accordion-border-color: none;
+    --bs-accordion-bg: linear-gradient(
+        rgb(0, 197, 200, 0.6),
+        rgb(0, 197, 200, 0.6)
+    );
+    --bs-accordion-active-bg: transparent;
+    border: none !important;
+    background: transparent;
+    border-radius: 0 !important;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion .accordion-body {
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6)) !important;
+    color: white;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion .accordion-item {
+    border-radius: 0 !important;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion .accordion-item .accordion-button {
+    border-radius: 0 !important;
+    font-weight: 700;
+    font-size: 1.12rem;
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+    color: white;
+  }
+  body .section-KnowUs .section-KnowUs-Right .accordion .accordion-item .accordion-button:focus {
+    box-shadow: none !important;
+  }
+  body .section-KnowUs .accordion-button:not(.collapsed) {
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+    border-bottom: 1px solid white;
+  }
+  body .section-frequently .frequent-MainHeading {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #00C5C8;
+  }
+  body .section-frequently .accordion-button {
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 1px solid #00C5C8;
+    color: #01060C;
+  }
+  body .section-frequently .accordion-button:focus {
+    box-shadow: none;
+  }
+  body .section-frequently .accordion-body {
+    background-color: white;
+    border: 1px solid #00C5C8;
+    border-top: 0 !important;
+  }
+  body .section-frequently .accordion-body p {
+    font-weight: 400;
+    color: #5C5353;
+    font-size: 1.12rem;
+    line-height: 27px;
+  }
+  body .section-frequently .accordion-button::after {
+    background-image: url("../icon/arrow-circle-down.svg") !important;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100% 100%;
+  }
+  body .footer .footerImage {
+    background-image: url("../images/footerImag2.jpg");
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  body .footer .FooterLogo {
+    background-image: linear-gradient(rgba(0, 197, 200, 0.6), rgba(0, 197, 200, 0.6));
+  }
+  body .footer .FooterLogo .toSetAllignment {
+    gap: 162px !important;
+  }
+  body .footer .MainFooter {
+    background-color: #00C5C8;
+  }
+  body .footer .MainFooter .Header-Icon {
+    padding: 0.6rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+  body .footer .MainFooter .Header-Text h4,
+  body .footer .MainFooter .Header-Text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+  }
+  body .footer .FooterInputField {
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+  }
+  body .footer .FooterInputField:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  body .footer .FooterInputField::-moz-placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  body .footer .FooterInputField::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  body .footer .FooterInputField:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  body .footer .FooterInputField:focus-visible {
+    outline: none !important;
+  }
+  body .footer .FooterSocialMedia {
+    width: 2rem;
+    height: 2rem;
+  }
+  body .footer .FooterButton {
+    background-color: white;
+    color: #00C5C8;
+    border-radius: 0 !important;
+  }
+  body .copyrights {
+    background-color: #01060C;
+    color: white;
+  }
+  body .copyrights small {
+    font-weight: 600;
+  }
+  body .company-background-section {
+    background-color: #fafafa;
+    padding: 50px;
+  }
+  body .company-background-section .container .company-back-image {
+    height: 100%;
+    width: 100%;
+  }
+  body .company-background-section .container .company-background-header .company-background-head2 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  body .company-background-section .container .company-background-paragraph {
+    font-size: 16px;
+    color: #666c89;
+    line-height: 24.24px;
+    font-weight: 500;
+  }
+  body .expertise-section {
+    background-color: #fafafa;
+    padding: 50px;
+  }
+  body .expertise-section .container .expertise-head4 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  body .expertise-section .container .expertise-paragraph {
+    color: #666c89;
+    font-size: 16px;
+    line-height: 24.24px;
+  }
+  body .expertise-section .container .expertise-label {
+    color: #1c1f35;
+    font-size: 20px;
+    line-height: 23.7px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  body .expertise-section .container .expertise-label .expertise-svg {
+    margin-right: 10px;
+  }
+  body .how-it-works-section {
+    background-color: #fafafa;
+    padding: 50px;
+  }
+  body .how-it-works-section .container .how-it-works-head4 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  body .how-it-works-section .container .how-it-works-paragraph {
+    color: #666c89;
+    font-size: 16px;
+    line-height: 24.24px;
+    font-weight: 500;
+  }
+  body .connected-with-us-section {
+    background-color: #00c5c8;
+    background-size: 25% 100%;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  body .connected-with-us-section .connected-section-inner {
+    height: 450px;
+    width: 420px;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .connected-header {
+    padding-right: 10px;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .connected-header .connected-head4 {
+    color: #fff;
+    font-size: 20px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row {
+    border-left: 2px solid #fff;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .connected-input {
+    border-radius: 0;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 20px 20px;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .connected-input::-moz-placeholder {
+    color: #fff;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .connected-input::placeholder {
+    color: #fff;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .connected-input:focus {
+    border-color: #fff;
+    box-shadow: none;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .submit-btn {
+    border: none;
+    background-color: #fff;
+    color: #00c5c8;
+    padding: 12px 16px;
+    transition: 0.3s all linear;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .submit-btn:hover {
+    background-color: #e5e3e3;
+  }
+  body .connected-with-us-section .connected-section-content .connected-content-right .main-row .submit-btn .submit-svg {
+    margin-right: 5px;
+  }
+  body .contact-page-section {
+    background-color: #fafafa;
+    padding: 50px;
+  }
+  body .contact-page-section .container .row .contact-page-left {
+    padding: 60px 0px;
+  }
+  body .contact-page-section .container .row .contact-page-left .contact-page-header .contact-page-head2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #01060c;
+    margin-bottom: 20px;
+  }
+  body .contact-page-section .container .row .contact-page-left .contact-page-paragragph {
+    color: #666c89;
+    font-size: 16px;
+    line-height: 24.24px;
+    font-weight: 500;
+  }
+  body .contact-page-section .container .row .contact-page-left .contact-circular-label {
+    background-color: #00c5c8;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  body .contact-page-section .container .row .contact-page-left .contact-page-label {
+    color: #5c5353;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  body .contact-page-section .container .row .contact-page-right {
+    background-color: #f5f5f5;
+    padding: 60px 56px;
+  }
+  body .contact-page-section .container .row .contact-page-right .contact-page-right-head2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #00c5c8;
+    margin-bottom: 20px;
+  }
+  body .contact-page-section .container .row .contact-page-right .contact-form-input {
+    padding: 20px 30px;
+    border: 2px solid #9199a3;
+    background-color: transparent;
+    margin: 20px 0;
+    border-radius: 0;
+  }
+  body .contact-page-section .container .row .contact-page-right .contact-form-input::-moz-placeholder {
+    color: #9199a3;
+  }
+  body .contact-page-section .container .row .contact-page-right .contact-form-input::placeholder {
+    color: #9199a3;
+  }
+  body .contact-page-section .container .row .contact-page-right .contact-form-input:focus {
+    box-shadow: none;
+    border-color: #9199a3;
+  }
+  body .contact-page-section .container .row .contact-page-right .btn-submit {
+    background-color: #00c5c8;
+    border: none;
+    color: #fff;
+    padding: 12px 16px;
+    transition: 0.3s all linear;
+  }
+  body .contact-page-section .container .row .contact-page-right .btn-submit:hover {
+    background-color: #009d9f;
+  }
+  body .growth-opportunity-section {
+    background-image: url(../images/BlogViewBanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+  }
+  body .growth-opportunity-section .growth-opportunity-section-inner .container .growth-opportunity .calendar-svg {
+    height: 40px;
+    width: 40px;
+  }
+  body .growth-opportunity-section .growth-opportunity-section-inner .container .growth-opportunity .date-label {
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+  }
+  body .growth-opportunity-section .growth-opportunity-section-inner .container .growth-opportunity .month-label {
+    color: rgba(0, 197, 200, 0.4509803922);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.24px;
+  }
+  body .growth-opportunity-section .growth-opportunity-section-inner .container .growth-opportunity .section-inner-head3 {
+    color: #fff;
+  }
+  body .blog-section {
+    background-color: #fafafa;
+    padding: 50px;
+  }
+  body .blog-section .container .row .blog-left-section .blog-head2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #01060c;
+    line-height: 41.48px;
+  }
+  body .blog-section .container .row .blog-left-section .blog-paragraph {
+    color: #666c89;
+    font-size: 16px;
+    line-height: 24.24px;
+    font-weight: 500;
+  }
+  body .blog-section .container .row .blog-left-section .quote-section {
+    background-color: #00c5c8;
+    padding: 50px 55px;
+    margin: 30px 0;
+  }
+  body .blog-section .container .row .blog-left-section .quote-section .blog-quote {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  body .blog-section .container .row .blog-left-section .blog-solutions {
+    color: #666c89;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.24px;
+  }
+  body .blog-section .container .row .blog-left-section .blog-image {
+    height: 100%;
+    width: 100%;
+  }
+  body .blog-section .container .row .blog-left-section .blog-left-section-separator {
+    border-top: 2px dotted #d6d6d6;
+    border-bottom: 2px dotted #d6d6d6;
+    padding: 10px 0;
+  }
+  body .blog-section .container .row .blog-right-section {
+    padding: 46px 42px;
+    border: 1px solid #eeeeee;
+    background-color: #f5f5f5;
+  }
+  body .blog-section .container .row .blog-right-section .blog-head4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.07px;
+    color: #01060c;
+    margin-bottom: 20px;
+  }
+  body .blog-section .container .row .blog-right-section .blog-help {
+    font-size: 16px;
+    line-height: 20.88px;
+    font-weight: 400;
+    color: #666c89;
+  }
+  body .blog-section .container .row .blog-right-section .btn-contact-us {
+    width: 100%;
+    border: none;
+    background-color: #00c5c8;
+    color: white;
+    padding: 12px 16px;
+    transition: 0.3s all linear;
+  }
+  body .blog-section .container .row .blog-right-section .btn-contact-us:hover {
+    background-color: #009d9f;
+  }
+  body .blog-section .container .row .blog-right-section .btn-contact-us .blog-call-svg {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+  }
+  body .news_para {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  body .business-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/business_meeting.jpg") !important;
+    height: 75vh !important;
+    width: 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+  body .business-section .business-section-inner {
+    position: relative;
+  }
+  body .business-section .business-section-inner .container .what-about-us {
+    position: absolute;
+    top: 200px;
+  }
+  body .business-section .business-section-inner .container .what-about-us .what-we-do {
+    border-left: 3px solid #00c5c8;
+    width: 110px;
+    background: rgba(4, 28, 55, 0.5019607843);
+  }
+  body .business-section .business-section-inner .container .what-about-us .what-we-do .about-what-label {
+    padding: 3px 10px;
+    background: rgba(4, 28, 55, 0.5019607843);
+    color: #fff;
+    font-size: 14.5px;
+  }
+  body .business-section .business-section-inner .container .what-about-us .section-inner-head3 {
+    color: #fff;
+    font-size: 3.1rem;
+    font-weight: 800;
+  }
+  body .business-page-section {
+    background-color: #fff !important;
+  }
+  body .business-page-section .container .business-page-head3 {
+    text-align: center;
+  }
+  body .business-page-section .container .business-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .business-page-section .container .business-row .business-page-label {
+    color: #5c5353;
+    line-height: 19.2px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+  }
+  body .business-page-section .container .business-row .business-card {
+    border: none;
+    background-color: #ecffff;
+    width: 22.62rem;
+  }
+  body .business-page-section .container .business-row .business-card .business-card-body {
+    padding: 1rem;
+  }
+  body .business-page-section .container .business-row .business-card .business-card-body .business-svg-label {
+    background-color: #00c5c8;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  body .business-page-section .container .business-row .business-card .business-card-body .business-svg-label .business-svg {
+    height: 30px;
+    width: 30px;
+  }
+  body .business-page-section .container .business-row .business-card .business-card-body .business-card-head4 {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  body .business-page-section .container .business-row .business-card .business-card-body .business-card-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    height: 12.5rem;
+  }
+  body .business-connected-section {
+    background: linear-gradient(90deg, rgb(27, 122, 133) 0%, rgb(0, 197, 200) 35%, rgb(169, 221, 222) 100%);
+  }
+  body .business-connected-section .ToSetLeftBox {
+    border-right: 2px solid white;
+    margin-right: 1rem;
+    padding-right: 2rem;
+  }
+  body .business-connected-section .ToSetLeftBox .Business-Main-Heading {
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 2rem;
+  }
+  body .business-connected-section .row-main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body .business-connected-section .row-main .business-connected-section-inner {
+    height: 450px;
+    width: 480px;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right {
+    position: absolute;
+    top: -230px;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right .connected-header {
+    border-bottom: 2px solid #fff;
+    width: 70%;
+    padding-bottom: 30px;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right .connected-header .connected-head4 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 48px;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right .row .confidential-btn {
+    border: none;
+    background-color: #fff;
+    color: #00c5c8;
+    padding: 12px 16px;
+    transition: 0.3s all linear;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right .row .confidential-btn:hover {
+    background-color: #e7e7e7;
+  }
+  body .business-connected-section .row-main .connected-section-content .connected-content-right .row .confidential-btn .submit-svg {
+    margin-right: 5px;
+  }
+  body .enquiry_section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/form.jpg") !important;
+    background-position: bottom !important;
+  }
+  body .contact_section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/dubai.jpg") !important;
+    background-position: bottom !important;
+  }
+  body .valuation-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Valuation Page_Top Banner.jpg ");
+    height: 75vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body .valuation-section .what-we-do {
+    border-left: 2px solid #00c5c8;
+    background-color: rgba(4, 28, 55, 0.5019607843);
+    width: 110px;
+  }
+  body .valuation-section .what-we-do .valuation-label {
+    padding: 3px 10px;
+    background: rgba(4, 28, 55, 0.5019607843);
+    color: #fff;
+    font-size: 15px;
+  }
+  body .valuation-section .valuation-head1 {
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 63px;
+    font-weight: 800;
+  }
+  body .valuation-section .valuation_intro {
+    color: #fff;
+  }
+  body .valuation-section .valuation-head5 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30.24px;
+    color: #fff;
+  }
+  body .valuation-matters-section {
+    background-color: #fff;
+  }
+  body .valuation-matters-section .valuation-head3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 63px;
+    color: #01060c;
+    margin-bottom: 35px;
+  }
+  body .valuation-matters-section .row .valuation-card {
+    border: none;
+    border-radius: 0;
+    background-color: #ecffff;
+    padding: 3px;
+  }
+  body .valuation-matters-section .row .valuation-card .valuation-card-body {
+    padding: 15px;
+  }
+  body .valuation-matters-section .row .valuation-card .valuation-card-body .valuation-card-label {
+    background-color: #00c5c8;
+    padding: 17px;
+    border-radius: 50%;
+  }
+  body .valuation-matters-section .row .valuation-card .valuation-card-body .valuation-card-label .valuation-svg {
+    width: 34px;
+  }
+  body .valuation-matters-section .row .valuation-card .valuation-card-body .valuation-card-header .valuation-card-head5 {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  body .valuation-matters-section .row .valuation-card .valuation-card-body .valuation-card-paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5C5353;
+    line-height: 30px;
+    text-align: center;
+  }
+  body .valuation-method-section {
+    background-color: #ecffff;
+    padding: 100px 50px;
+    width: 100%;
+  }
+  body .valuation-method-section .ValuationMethodLastPara {
+    font-size: 16px;
+    font-weight: 700 !important;
+    line-height: 20px;
+    color: #1b7a85 !important;
+  }
+  body .valuation-method-section .row {
+    --bs-gutter-x: 3.5rem;
+  }
+  body .valuation-method-section .row .valuation-method-left .valuation-method-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body .valuation-method-section .row .valuation-method-right {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/valuation_update2.png");
+    background-size: cover;
+    background-position: center;
+  }
+  body .broker-hub-section .broker-header-section {
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/broker_banner.png");
+  }
+  body .broker-hub-section .broker-header-section .HeroSectionStart {
+    color: white;
+  }
+  body .broker-hub-section .broker-header-section .HeroSectionStart h2 {
+    font-size: 1.8rem;
+  }
+  body .broker-hub-section .broker-header-section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .broker-hub-section .broker-header-section .become-a-broker {
+    border-left: 3px solid #00c5c8;
+    width: 150px;
+    background: rgba(4, 28, 55, 0.5019607843);
+  }
+  body .broker-hub-section .broker-header-section .become-a-broker .broker-header-label {
+    padding: 5px 10px;
+    background: rgba(4, 28, 55, 0.5019607843);
+    color: #fff;
+    font-size: 14px;
+  }
+  body .broker-hub-section .broker-header-section .broker-header-head1 {
+    font-size: 3.1rem;
+    font-weight: 800;
+    line-height: 90px;
+    color: #fff;
+  }
+  body .broker-hub-section .broker-hero-section .broker-hero-head1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 45px;
+  }
+  body .broker-hub-section .broker-hero-section .broker-hero-quote {
+    background-color: #00c5c8;
+  }
+  body .broker-hub-section .broker-hero-section .broker-hero-quote .broker-hero-paragraph {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-left-paragraph {
+    font-weight: 400;
+    padding-right: 10px;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-section-left-image {
+    height: 100%;
+    width: 100%;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-career-left-image {
+    width: 100%;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-card {
+    border: none;
+    border-radius: 0;
+    background-color: #ecffff;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.0509803922) !important;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-card .hero-card-body {
+    padding: 13px 16px;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-card .hero-card-body .hero-card-head5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-left .hero-card .hero-card-body .hero-card-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5c5353;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-section-right-image {
+    height: 100%;
+    width: 100%;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-card {
+    border: none;
+    border-radius: 0;
+    background-color: #ecffff;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.0509803922) !important;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-card .hero-card-body {
+    padding: 13px 16px;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-card .hero-card-body .hero-card-head5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-card .hero-card-body .hero-card-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5c5353;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-right .hero-career-right-image {
+    height: 504px;
+    width: 100%;
+  }
+  body .broker-hub-section .broker-hero-section .hero-section-center .hero-center-head2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37.8px;
+    color: #01060c;
+  }
+  @media only screen and (max-width: 768px) {
+    body .broker-header-head1 {
+      font-size: 45px !important;
+      line-height: 50px !important;
+    }
+    body .broker-hero-head1 {
+      font-size: 22px !important;
+      line-height: 40px !important;
+    }
+    body .broker-hero-paragraph {
+      font-size: 16px !important;
+    }
+    body .hero-center-head2 {
+      font-size: 22px !important;
+    }
+    body .hero-card-head5 {
+      font-size: 20px !important;
+      line-height: 30px !important;
+    }
+    body .hero-card-paragraph {
+      font-size: 14px !important;
+    }
+    body .expertise-back-image {
+      display: none;
+    }
+    body .valuation-method-section {
+      background-color: #ecffff;
+      padding: 2px 19px !important;
+      width: 100%;
+    }
+    body .connected-with-us-section {
+      background-size: 100% 100% !important;
+    }
+    body .valuation-head1 {
+      font-size: 40px !important;
+    }
+    body .valuation-head5 {
+      font-size: 20px !important;
+    }
+    body .valuation-head3 {
+      text-align: center;
+    }
+    body .valuation-card {
+      margin: 20px 0;
+    }
+    body .valuation-card-paragraph {
+      font-size: 1rem !important;
+    }
+    body .valuation-card-head5 {
+      font-size: 19px !important;
+    }
+    body .valuation-svg {
+      height: 40px !important;
+      width: 40px !important;
+    }
+    body .valuation-method-left {
+      padding: 50px 0;
+    }
+    body .connected-content-right {
+      width: 100% !important;
+    }
+    body .how-it-works-back-image {
+      display: none;
+    }
+    body .company-background-paragraph {
+      font-size: 14px !important;
+    }
+    body .company-background-head2 {
+      font-size: 28px !important;
+    }
+    body .expertise-head4 {
+      font-size: 28px !important;
+    }
+    body .expertise-paragraph {
+      font-size: 14px !important;
+    }
+    body .business-section .what-about-us {
+      left: 60px !important;
+      top: 100px !important;
+    }
+    body .expertise-label {
+      font-size: 16px !important;
+    }
+    body .how-it-works-head4 {
+      font-size: 28px !important;
+    }
+    body .how-it-works-paragraph {
+      font-size: 14px !important;
+    }
+    body .section-inner-head3 {
+      font-size: 34px !important;
+    }
+    body .about-what-label {
+      font-size: 12.5px !important;
+    }
+    body .about-us-section {
+      height: 58vh !important;
+    }
+    body .what-about-us {
+      left: 60px !important;
+      top: 100px !important;
+    }
+    body .connected-head4 {
+      font-size: 20px !important;
+    }
+    body .contact-page-right {
+      padding: 30px !important;
+    }
+    body .connected-section-inner {
+      display: none;
+    }
+    body .connected-content-right {
+      left: 0px !important;
+      display: flex !important;
+      justify-content: center !important;
+      flex-direction: column;
+      top: 220px !important;
+    }
+    body .calendar-svg {
+      height: 40px !important;
+      width: 40px !important;
+    }
+    body .main-row {
+      border-left: none !important;
+    }
+    body .connected-input {
+      padding: 10px 18px !important;
+      margin: 10px 0 !important;
+    }
+    body .submit-btn {
+      font-size: 14px;
+      width: 100%;
+    }
+    body .submit-svg {
+      height: 15px;
+    }
+    body .date-label {
+      font-size: 20px !important;
+    }
+    body .contact-page-left {
+      padding: 60px 0 !important;
+    }
+    body .contact-page-paragraph {
+      font-size: 16px;
+    }
+    body .contact-page-head2 {
+      font-size: 23px !important;
+    }
+    body .contact-circular-label {
+      padding: 14px !important;
+    }
+    body .contact-page-right-head2 {
+      font-size: 30px !important;
+    }
+    body .contact-form-input {
+      padding: 13px 13px !important;
+    }
+    body .btn-submit {
+      padding: 10px 13px !important;
+      width: 100%;
+    }
+    body .blog-left-section-separator {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 20px !important;
+    }
+    body .growth-opportunity-section {
+      height: 80vh !important;
+    }
+    body .growth-opportunity .section-inner-head3 {
+      font-size: 17px !important;
+      line-height: 30px !important;
+    }
+    body .blog-head2 {
+      font-size: 21px !important;
+    }
+    body .blog-paragraph {
+      font-size: 14px !important;
+    }
+    body .blog-quote {
+      font-size: 16px !important;
+    }
+    body .blog-solutions {
+      font-size: 14px !important;
+    }
+    body .blog-right-section .blog-head4 {
+      font-size: 18px !important;
+    }
+    body .blog-help {
+      font-size: 14px !important;
+    }
+    body .btn-contact-us {
+      font-size: 14px;
+    }
+    body .blog-call-svg {
+      height: 20px !important;
+      width: 20px !important;
+    }
+    body .business-page-label {
+      font-size: 16px !important;
+    }
+    body .business-svg {
+      height: 25px !important;
+      width: 25px !important;
+    }
+    body .business-card-label {
+      font-size: 14px !important;
+    }
+    body .business-card-head4 {
+      font-size: 20px !important;
+    }
+    body .business-svg-label {
+      padding: 17px !important;
+    }
+    body .business-connected-section-inner {
+      display: none;
+    }
+    body .confidential-btn {
+      width: 100%;
+    }
+    body .business-connected-section .connected-head4 {
+      font-size: 18px !important;
+      line-height: 35px !important;
+    }
+    body .business-connected-section .connected-content-right {
+      top: 220px !important;
+      right: 0 !important;
+    }
+  }
+  body .tosetinBottom {
+    margin-bottom: 3rem !important;
+  }
+  body .buyerForm {
+    color: white;
+  }
+  body .buyerForm input,
+  body .buyerForm textarea {
+    color: white;
+  }
+  body .buyerForm .select2-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  body .buyerForm .select2-container--default .select2-selection--single {
+    height: 100%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+  body .buyerForm .select2-selection__rendered {
+    color: white !important;
+  }
+  body .buyerForm .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%;
+    display: flex;
+  }
+  body .buyerForm .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: white transparent transparent transparent !important;
+  }
+  body .buyerForm .select2-container--default .select2-selection--single {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.3rem;
+  }
+  body .buyerForm .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  body .buyerForm .custom-radio input[type=radio] {
+    display: none;
+  }
+  body .buyerForm .custom-radio .radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #01060c;
+    border-radius: 25%;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: white;
+  }
+  body .buyerForm .custom-radio .radio-btn::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.2s ease-out;
+    color: #fff !important;
+  }
+  body .buyerForm .custom-radio input[type=checkbox]:checked + .radio-btn::after {
+    color: #333;
+    background-color: #00c5c8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20%;
+    border: none !important;
+    border-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .buyerForm #contact {
+    position: absolute;
+    left: 3px;
+    display: none;
+  }
+  body .buyerForm .SendMessageButton {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0 !important;
+    color: #00C5C8;
+  }
+  body .Businesss-hero-Section {
+    background-size: 100% 100%;
+    padding-top: 3rem;
+  }
+  body .Businesss-hero-Section .HeroSectionStart {
+    color: white;
+    padding-top: 6rem;
+    margin-bottom: 8rem;
+  }
+  body .Businesss-hero-Section .HeroSectionStart h2 {
+    font-size: 3.1rem;
+    font-weight: 800;
+    line-height: 78px;
+  }
+  body .Businesss-hero-Section .HeroSectionStart p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  body .Businesss-hero-Section .HeroSectionStart .HeroSearchBar {
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1rem !important;
+    background-color: white;
+    border-radius: 2px;
+    top: -43px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  body .Businesss-hero-Section .HeroSectionStart .HeroSearchBar input {
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+  body .Businesss-hero-Section .HeroSectionStart .HeroSearchBar button {
+    border-radius: 0 !important;
+    background-color: #00C5C8;
+    padding: 1rem 2rem;
+  }
+  body .Businesss-hero-Section .HeroSectionStart .HeroSearchBar button:hover {
+    background-color: #02afb1 !important;
+    color: white;
+    border-radius: 0 !important;
+  }
+  
+  .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #00c5c8 !important;
+  }
+  
+  .wizard .actions {
+    padding-right: 50px !important;
+  }
+  
+  .buyer_agreement {
+    font-size: 16px;
+  }
+  .buyer_agreement p {
+    font-size: 16px;
+  }
+  .buyer_agreement .agreement_content {
+    overflow: scroll !important;
+    height: 510px !important;
+    overflow-x: hidden !important;
+  }
+  .buyer_agreement .agreement_content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+  .buyer_agreement .agreement_content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+  }
+  .buyer_agreement .agreement_content::-webkit-scrollbar-thumb {
+    background-color: #00C5C8;
+  }
+  
+  .list-style-disc {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+  }
+  
+  .JourneyImageSection .owl-carousel .owl-dots {
+    display: none;
+  }
+  .JourneyImageSection .owl-carousel .owl-stage-outer {
+    padding: 60px 0px !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+  }
+  .JourneyImageSection .owl-carousel .owl-nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 12rem;
+    padding: 0px 150px;
+  }
+  .JourneyImageSection .owl-carousel .owl-nav .owl-prev {
+    margin-left: 50px;
+  }
+  .JourneyImageSection .owl-carousel .owl-nav .owl-next {
+    margin-right: 46px;
+  }
+  .JourneyImageSection .owl-carousel .owl-nav button.owl-prev,
+  .JourneyImageSection .owl-carousel .owl-nav button.owl-next {
+    background-color: rgba(0, 197, 200, 0.5) !important;
+    border-radius: 100% !important;
+    padding: 10px !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .JourneyImageSection .owl-carousel .owl-nav button.owl-prev .nav-btn,
+  .JourneyImageSection .owl-carousel .owl-nav button.owl-next .nav-btn {
+    font-size: larger;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .wizard > .content > .body {
+    padding: 0px !important;
+  }
+  
+  .pt-10 {
+    padding-top: 5rem !important;
+  }
+  
+  .wizard > .steps .done a {
+    background-color: #00C5C8 !important;
+  }
+  
+  #loading {
+    background-color: #fafbfe;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden !important;
+    right: 0px;
+    z-index: 999999;
+  }
+  
+  #loading-center {
+    background: url("../images/unify_loader.gif") no-repeat scroll center center !important;
+    background-size: 20%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .loader {
+    width: 3em;
+    height: em;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .fs-18 {
+    font-size: 18px !important;
+  }
+  
+  .browse_listing {
+    height: 75vh !important;
+  }
+  .browse_listing .browse_listing_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 19px;
+  }
+  .spacer {
+    border: 1px solid gray !important;
+    height: auto;
+    width: auto;
+  }
+  
+  .Services-Section,
+  .Businesss-hero-Section,
+  .valuation-section,
+  .broker-header-sectionServices-Section,
+  .Businesss-hero-Section,
+  .valuation-section,
+  .broker-header-section {
+    height: 100vh !important;
+  }
+  
+  .form-setting-height {
+    height: 36rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .figure {
+    width: 26rem;
+    height: 12rem;
+  }
+  
+  .AllMainHeading {
+    font-size: 3.1rem !important;
+    font-weight: 800;
+    line-height: 70px;
+    color: #fff;
+  }
+  
+  .AllParagraphFontSize {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    line-height: 29px !important;
+  }
+  
+  .AllSubHeadings {
+    font-weight: 800 !important;
+    font-size: 2rem !important;
+    line-height: 46px !important;
+  }
+  
+  .navbar-toggler {
+    padding: 0.6rem 0.8rem !important;
+  }
+  
+  body .valuation-matters-section .row .valuation-card {
+    height: 27rem;
+  }
+  
+  .listingViewPageHeight {
+    height: 27rem;
+  }
+  
+  .EnquireFormSetting {
+    height: 45vh !important;
+  }
+  
+  .submitbtnbusiness {
+    padding: 1rem !important;
+  }
+  
+  .colorGrey {
+    color: #5c5353;
+  }
+  
+  .togiveSelectFullWidth {
+    border: none !important;
+  }
+  
+  .tosetSearchbarWidth {
+    width: 30%;
+  }
+  
+  .BlogsSectionNew {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .BlogsSectionNew .BlogNewHeading {
+    color: #01060c !important;
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+  
+  .GlobalSectionNew {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .GlobalSectionNew .BlogNewHeading {
+    color: #01060c !important;
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+  
+  @font-face {
+    font-family: "WixMade";
+    src: url(../font/WixMadeforText-VariableFont_wght.ttf);
+  }
+  @media only screen and (min-width: 1400px) {
+    .p-xxl-5 {
+      padding: 5rem 2rem !important;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1680px) {
+    .container,
+    .container-lg,
+    .container-xl {
+      max-width: 1150px !important;
+    }
+    .sell-section .Sell-Heading {
+      font-size: 2rem !important;
+      line-height: 50px !important;
+    }
+    .broker-hub-section .broker-hero-section .broker-hero-quote .broker-hero-paragraph {
+      text-align: center;
+      color: #fff;
+      font-size: 16px !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-left .hero-left-paragraph {
+      font-weight: 400 !important;
+    }
+    .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+      font-size: 1.3rem !important;
+      font-weight: 800 !important;
+      line-height: 30px !important;
+      text-wrap: nowrap !important;
+    }
+    .Section-Journey h1 {
+      font-size: 2rem !important;
+      font-weight: 800 !important;
+      line-height: 55px !important;
+    }
+    .section-WhoweAre .WhoWeAreTextBox {
+      padding: 3rem !important;
+    }
+    .section-WhoweAre .WhoWeAreTextBox h1 {
+      margin-bottom: 20px !important;
+    }
+    .section-WhoweAre .WhoWeAreTextBox p {
+      color: #5c5353 !important;
+    }
+    .Section-Journey .journey_para {
+      font-size: 16px !important;
+      padding: 20px !important;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav {
+      padding: 0px 50px !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-left {
+      height: 100% !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-left .hero-career-left-image {
+      width: 100%;
+      height: 100% !important;
+      -o-object-fit: cover !important;
+         object-fit: cover !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-right {
+      height: 100% !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-right .hero-career-right-image {
+      height: 100% !important;
+      width: 100% !important;
+      -o-object-fit: cover !important;
+         object-fit: cover !important;
+    }
+    .services-information .card .card-title {
+      font-size: 1.4rem !important;
+      font-weight: 700 !important;
+      line-height: 30px !important;
+    }
+    .services-information .card .card-text {
+      font-size: 1rem !important;
+      color: #5c5353 !important;
+    }
+    .services-information .card .card-body {
+      height: 21rem !important;
+    }
+    .valuation-card {
+      padding: 10px !important;
+    }
+    .blog-section .container .row .blog-left-section .blog-head2 {
+      font-weight: 800 !important;
+      line-height: 50.48px !important;
+    }
+    .broker-hub-section .broker-hero-section .hero-section-right .hero-section-right-image {
+      -o-object-fit: cover !important;
+         object-fit: cover !important;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body .business-page-section .container .business-row .business-card .business-card-body .business-card-head4 {
+      font-size: 22px !important;
+      font-weight: 700;
+      line-height: 37.5px;
+      text-align: center;
+    }
+    body .business-page-section .container .business-row .business-card {
+      width: 100% !important;
+    }
+    .hero-Section .HeroSectionStart {
+      padding-top: 3rem !important;
+    }
+    .services-information .card-body {
+      height: -moz-max-content !important;
+      height: max-content !important;
+    }
+    body .Section-Journey .JourneyImageSection .toSetItsPoistion {
+      top: -84px;
+    }
+    body .Section-Journey h1 {
+      margin-bottom: 0;
+    }
+    body .Section-Journey .JourneyImageSection .JourneyImages,
+    body .Section-Journey .JourneyImageSection .JourneyImagesThird,
+    body .Section-Journey .JourneyImageSection .JourneyImagesSecond,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFourth,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFifth {
+      width: 10rem;
+      height: 18rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox h1 {
+      font-size: 1.5rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox p {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder h2 {
+      font-size: 1.2rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder p {
+      line-height: 20px;
+      font-size: 0.9rem;
+    }
+    body .Section-Journey h1 {
+      line-height: 50px;
+      font-size: 2rem;
+    }
+    body .Listing-hero-Section .HeroSectionStart .HeroSearchBar {
+      top: -43px;
+      left: 0rem !important;
+    }
+    .AllMainHeading {
+      font-size: 2.5rem !important;
+      line-height: 58px !important;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .Services-Section .HeroSectionStart {
+      margin: 130px 0px 0px 0px !important;
+      width: 100% !important;
+    }
+    .Businesss-hero-Section .HeroSectionStart .HeroSearchBar {
+      width: 100% !important;
+    }
+    .business-page-section .business-row .business-page-label {
+      display: none;
+    }
+    .browse_listing .browse_listing_container {
+      gap: 0px !important;
+    }
+    .broker-hub-section .broker-header-section .HeroSectionStart {
+      width: 100% !important;
+    }
+    .valuation_para_intro {
+      width: 100% !important;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav {
+      padding: 0px !important;
+    }
+    body .business-page-section .container .business-row .business-card {
+      width: 100% !important;
+    }
+    .wizard > .steps > ul > li {
+      width: 40% !important;
+    }
+    .services-information .card-body {
+      height: -moz-max-content !important;
+      height: max-content !important;
+    }
+    .SecondNav {
+      display: none;
+    }
+    .BusinessContactUS .TogiveRightBorder {
+      border-right: none !important;
+    }
+    .HeroSectionsecond p {
+      font-size: 1rem !important;
+      line-height: 26px !important;
+    }
+    .hero-Section .HeroSectionStart {
+      width: 100% !important;
+    }
+    .hero-Section .HeroSectionStart p {
+      font-size: 1rem !important;
+      line-height: 26px !important;
+    }
+    body .Section-Journey .JourneyImageSection .toSetItsPoistion {
+      top: -68px;
+    }
+    body .Section-Journey .JourneyImageSection .ExploreAllButton {
+      bottom: -82px;
+      left: 42%;
+    }
+    body .Section-Journey h1 {
+      margin-bottom: 0;
+    }
+    body .Section-Journey .JourneyImageSection .JourneyImages,
+    body .Section-Journey .JourneyImageSection .JourneyImagesThird,
+    body .Section-Journey .JourneyImageSection .JourneyImagesSecond,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFourth,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFifth {
+      width: 15rem;
+      height: 18rem;
+      padding: 0.5rem !important;
+    }
+    body .Section-Journey .JourneyImageSection .JourneyImages p,
+    body .Section-Journey .JourneyImageSection .JourneyImagesThird p,
+    body .Section-Journey .JourneyImageSection .JourneyImagesSecond p,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFourth p,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFifth p {
+      font-size: 0.8rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox h1 {
+      font-size: 1.5rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox p {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder h2 {
+      font-size: 1rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder p {
+      font-size: 0.8rem !important;
+      line-height: 18px !important;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder .leftBorder {
+      border-left: 0 !important;
+    }
+    body .Section-Journey h1 {
+      line-height: 50px;
+      font-size: 1.8rem;
+    }
+    .toSetButtonFullWIth button {
+      width: 100%;
+    }
+    body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+      font-size: 1.1rem;
+    }
+    .toSetRow {
+      margin-right: 0;
+    }
+    .LeftSectionHide {
+      display: none;
+    }
+    .LeftSection {
+      border-right: none !important;
+    }
+    .Listing-hero-Section {
+      padding-bottom: 2rem;
+      margin-bottom: 4rem;
+    }
+    .FilterShowButton {
+      display: block !important;
+    }
+    .section-Blog .toChangeWidth {
+      width: 95% !important;
+    }
+    .toSetParagraph {
+      width: 100% !important;
+      bottom: 0% !important;
+    }
+    .toSetParagraph p {
+      font-size: 0.9rem;
+    }
+    body .business-connected-section .ToSetLeftBox {
+      border-right: none !important;
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+    }
+    .AllMainHeading {
+      font-size: 2rem !important;
+      line-height: 50px !important;
+    }
+  }
+  @media (min-width: 321px) and (max-width: 480px) {
+    .my-bgimage2 {
+      width: 100%;
+      height: 17rem !important;
+    }
+    body .business-page-section .container .business-row .business-card {
+      width: 100% !important;
+    }
+    body .business-connected-section .ToSetLeftBox {
+      border-right: none !important;
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+    }
+    .services-information .card-text {
+      font-size: 1rem !important;
+    }
+    .wizard > .steps > ul > li {
+      width: 50% !important;
+      height: 100%;
+    }
+    .wizard > .steps > ul > li a {
+      font-size: 0.7rem;
+    }
+    .JourneyImagesSecond,
+    .JourneyImages,
+    .JourneyImagesThird,
+    .JourneyImagesFourth,
+    .JourneyImagesFifth,
+    .JourneyImagesSixth,
+    .JourneyImagesSeven,
+    .JourneyImagesEight,
+    .JourneyImagesNine,
+    .JourneyImagesTen {
+      width: 100% !important;
+      height: 20.3rem !important;
+    }
+    .toSetParagraph {
+      width: 100% !important;
+      bottom: 0% !important;
+    }
+    .toSetParagraph p {
+      font-size: 0.7rem;
+    }
+    .sectionBusinessOpportunity .toSetItemOnImage {
+      display: none !important;
+    }
+    body .footer .FooterLogo .toSetAllignment {
+      gap: 0 !important;
+      justify-content: space-between;
+    }
+    .BusinessContactUS .TogiveRightBorder {
+      border-right: none !important;
+    }
+    .BusinessContactUS {
+      padding: 1rem 0.2rem;
+    }
+    .SecondNav {
+      display: none;
+    }
+    .hero-Section .HeroSectionStart {
+      width: 100% !important;
+    }
+    .hero-Section .HeroSectionStart p {
+      font-size: 0.875rem !important;
+      line-height: 22px !important;
+    }
+    body .Section-Journey .JourneyImageSection .toSetItsPoistion {
+      top: -54px;
+    }
+    body .Section-Journey .JourneyImageSection .ExploreAllButton {
+      bottom: -44px;
+      left: 34%;
+    }
+    body .Section-Journey .JourneyImageSection .JourneyImages,
+    body .Section-Journey .JourneyImageSection .JourneyImagesThird,
+    body .Section-Journey .JourneyImageSection .JourneyImagesSecond,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFourth,
+    body .Section-Journey .JourneyImageSection .JourneyImagesFifth {
+      width: 4.3rem;
+      height: 6rem;
+      padding: 0.5rem !important;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox {
+      bottom: -422px;
+      width: 90% !important;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox h1 {
+      font-size: 1.5rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox p {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder .leftBorder,
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder .ToGiveStyleOnSmallScreen {
+      text-align: center !important;
+      border-left: 0 !important;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder h2 {
+      font-size: 1rem;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs .whyChooseLeftBorder p {
+      font-size: 0.8rem !important;
+      line-height: 18px !important;
+    }
+    .Section-Journey {
+      padding-top: 21rem !important;
+    }
+    body .Section-Journey h1 {
+      margin-bottom: 0;
+      line-height: 26px;
+      font-size: 1rem;
+    }
+    .toSetButtonFullWIth {
+      width: 100%;
+    }
+    .toSetButtonFullWIth button {
+      width: 100%;
+    }
+    body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+      font-size: 1.5rem;
+    }
+    .ToGiveStyleOnSmallScreen {
+      border-left: 2px solid #00C5C8;
+      padding-left: 2rem;
+      margin-left: 1rem;
+    }
+    .toChangeWidth {
+      width: 90% !important;
+    }
+    .LeftSectionHide {
+      display: none;
+    }
+    .Listing-hero-Section {
+      padding-bottom: 2rem;
+      margin-bottom: 4rem;
+    }
+    .FilterShowButton {
+      display: block !important;
+    }
+    body .Section-Filter .Right-Section .MainCards .card .toSetImageText {
+      bottom: 337px;
+    }
+    .LeftSection {
+      border-right: none !important;
+    }
+    body .Section-Filter .Right-Section .MainCards .card .card-title h3 {
+      font-size: 1.3rem;
+    }
+    body .Section-Filter .Right-Section .MainCards .card .card-MainPrice {
+      font-size: 1.1rem;
+    }
+    body .ListingView-Section .HeroSectionStart h2 {
+      font-size: 2rem;
+      line-height: 40px;
+    }
+    body .sectionBusinessOpportunity {
+      margin-bottom: 35rem !important;
+    }
+    body .sectionBusinessOpportunity .toSetItemOnImage {
+      bottom: 4px;
+      left: 10px;
+      padding: 2rem;
+    }
+    .ToHideThisColoumn {
+      display: none !important;
+    }
+    .CarouselToShow {
+      display: block !important;
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+      display: none;
+    }
+    .BlogTogiveLeftBorder {
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+      border-left: none !important;
+    }
+    .CalendarImage {
+      width: 2rem;
+    }
+    .CalendarDate {
+      font-size: 1.1rem;
+    }
+    .section-Blog .toChangeWidth {
+      width: 95% !important;
+    }
+    .TestimonialMainHead {
+      font-size: 1.5rem !important;
+    }
+    .TestimonialMainHead span {
+      display: block;
+    }
+    .cardProfilePic {
+      width: 4rem !important;
+      height: 4rem !important;
+    }
+    body .section-Testemonial .owl-nav {
+      gap: 0 !important;
+      right: 9px !important;
+    }
+    body .section-Testemonial .owl-carousel .owl-item img {
+      display: block;
+      width: 1rem;
+    }
+    body .section-Testemonial .card .QuoteSign {
+      background-color: #00c5c8;
+      width: 2.3rem;
+      height: 2.3rem;
+    }
+    body .blog-section {
+      padding: 15px !important;
+    }
+    .ShowingText {
+      font-size: 0.8rem !important;
+    }
+    .sortyByPara {
+      font-size: 0.8rem !important;
+    }
+    body .Section-Filter .Right-Section .select2-container--default .select2-selection--single .select2-selection__rendered {
+      font-size: 0.8rem !important;
+    }
+    .Our-Process-Picture .Main-Bullet-Paragraph {
+      font-size: 0.9rem !important;
+    }
+    .Our-Process-Picture .Main-Bullet-Points {
+      font-weight: 700;
+      font-size: 0.9rem !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .valuation-method-right {
+      height: 32rem !important;
+    }
+    .wizard .actions {
+      padding-right: 31px !important;
+    }
+    .wizard > .content {
+      min-height: 42em !important;
+    }
+    body .valuation-matters-section .row .valuation-card {
+      height: 18rem;
+    }
+    .browse_listing .browse_listing_container {
+      gap: 0 !important;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav {
+      padding: 0 !important;
+    }
+    .AllSubHeadings {
+      font-weight: 800;
+      font-size: 1.5rem !important;
+    }
+    body .listingViewSection .HeroSectionStart h2 {
+      font-size: 1.5rem;
+      line-height: 33px;
+    }
+    body .valuation-section .valuation_intro {
+      font-size: 2.5rem;
+      line-height: 58px;
+    }
+  }
+  @media (max-width: 768px) {
+    .valuation-method-right {
+      height: 40rem !important;
+    }
+    .toSetButtonFullWIthtow {
+      width: 100% !important;
+    }
+    tosetWidthBar {
+      width: 33% !important;
+    }
+    .body .Businesss-hero-Section .HeroSectionStart .HeroSearchBar button {
+      padding: 0.8rem !important;
+    }
+    .submitbtnbusiness {
+      padding: 0.8rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .listingViewPageHeight {
+      height: auto !important;
+    }
+    .togiveSelectFullWidth {
+      width: 100% !important;
+    }
+    body .valuation-matters-section .row .valuation-card {
+      height: 19rem;
+    }
+    body .valuation-matters-section .row .valuation-card {
+      height: 20rem;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav .owl-next {
+      margin-right: 26px;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav .owl-prev {
+      margin-left: 34px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox {
+      gap: 0px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .first_sec {
+      gap: 0px;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox .whyChooseUs {
+      gap: 0px;
+    }
+    .AllSubHeadings {
+      line-height: 41px !important;
+    }
+    body .hero-Section .HeroSectionStart {
+      gap: 13px;
+    }
+    .AllParagraphFontSize {
+      font-size: 1rem !important;
+      font-weight: 400 !important;
+      line-height: 26px !important;
+    }
+    body .listingViewSection .HeroSectionStart h2 {
+      font-size: 2rem;
+      line-height: 50px;
+    }
+    .browse_listing .browse_listing_container .business-page-head3 {
+      margin-bottom: 2rem;
+    }
+  }
+  @media (max-width: 426px) {
+    .BlogsSectionNew {
+      height: 29vh;
+    }
+    .valuation-method-right {
+      height: 23rem !important;
+    }
+    body .valuation-matters-section .row .valuation-card .valuation-card-body .valuation-card-label .valuation-svg {
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .tosetSearchbarWidth {
+      width: 100%;
+    }
+    .wizard .actions {
+      padding-right: 7px !important;
+    }
+    .browse_listing .browse_listing_container .business-page-head3 {
+      margin-bottom: 0 !important;
+    }
+    .Services-Section,
+    .Businesss-hero-Section,
+    .valuation-section,
+    .broker-header-sectionServices-Section,
+    .Businesss-hero-Section,
+    .valuation-section,
+    .broker-header-section {
+      height: 87vh !important;
+    }
+    .sizeofbanner {
+      height: 80vh !important;
+    }
+    .listingViewSection {
+      height: 87vh !important;
+    }
+    body .section-frequently .accordion-button {
+      font-size: 1rem !important;
+    }
+    body .section-KnowUs .section-KnowUs-Right .accordion .accordion-item .accordion-button {
+      font-size: 1rem !important;
+    }
+    body .section-OurProcess .OurProcess-Heading {
+      margin-bottom: 34px;
+    }
+    body .services-information .card .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 30.5px;
+    }
+    body .services-information .card .card-body {
+      height: auto !important;
+    }
+    body .section-Blog .Blog-Heading {
+      font-size: 1.25rem;
+    }
+    body .Section-Journey .journey_para {
+      padding: 0px;
+      margin-top: 1rem;
+    }
+    .toAlignLeftTXT {
+      text-align: left !important;
+    }
+    .hero-Section {
+      height: 87vh !important;
+    }
+    body .Services-Section {
+      height: 87vh !important;
+    }
+    .HomepageAccordian .accordion-button {
+      font-size: 1rem !important;
+    }
+    .imag-text p {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+    .tosetIconSettingSmall {
+      width: 32px !important;
+    }
+    body .listingViewSection .HeroSectionStart h2 {
+      font-size: 1.25rem !important;
+      line-height: 27px !important;
+    }
+    .HeadingFullWidthSet {
+      width: 100% !important;
+    }
+    .MainContactUsHeading {
+      width: auto !important;
+    }
+    .AllMainHeading {
+      font-size: 1.25rem !important;
+      line-height: 27px !important;
+    }
+    body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+      font-size: 1.2rem !important;
+      line-height: 28px !important;
+    }
+    .fs-18 {
+      font-size: 16px !important;
+      line-height: 24px !important;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav .owl-next {
+      margin-right: 33px;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav {
+      top: 40% !important;
+    }
+    .form-setting-height {
+      height: 27rem;
+    }
+    .EmbarkJourneyMainTXT {
+      font-size: 1.25rem !important;
+      line-height: 33px !important;
+    }
+    .EmbarkJourneyMainTXT span {
+      display: inline-block !important;
+    }
+    .TOseTmAINtEXT {
+      font-size: 0.875rem !important;
+      line-height: 22px !important;
+    }
+    .sizeofbanner {
+      height: 80vh !important;
+    }
+  }
+  @media (max-width: 376px) {
+    .Section-Journey {
+      padding-top: 26rem !important;
+    }
+    body .section-WhoweAre .WhoWeAreTextBox {
+      bottom: -523px;
+    }
+    body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Name {
+      font-size: 1.2rem !important;
+      line-height: 28px !important;
+    }
+    body .sell-section .Sell-card-Height .Sell-Left-Border .Sell-card-Para {
+      font-size: 13px !important;
+      line-height: 22px !important;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav .owl-prev {
+      margin-left: 30px;
+    }
+    .JourneyImageSection .owl-carousel .owl-nav .owl-next {
+      margin-right: 30px;
+    }
+  }/*# sourceMappingURL=stylesheet.css.map */
