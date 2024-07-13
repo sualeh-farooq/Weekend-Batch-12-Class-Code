@@ -1,0 +1,126 @@
+/* @font-face {
+    font-family: 'myFont' ;
+    src: url(assets/fonts/Lijeva/PlaywriteHRLijeva-VariableFont_wght.ttf);
+}
+
+
+h1 {
+    font-family: 'myFont';
+    text-align: center;
+}
+
+p {
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 20px;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}
+*/
+
+/* 
+h4 {
+    text-shadow: -5px 2px 2px #1c74b8;
+}
+ */
+
+/* .firstP::first-letter {
+    text-transform: uppercase;
+    color: green;
+    font-size: 50px;
+}
+ */
+
+
+ /* .firstP::first-line {
+    text-transform: uppercase;
+    color: green;
+    font-size: 50px;
+}
+ */
+
+
+ /* a:visited {
+    color: red;
+ }
+
+
+ a:link {
+    color: green;
+ }
+  */
+
+
+
+  .box1 {
+    width: max-content;
+    height: 300px;
+    /* background-color: red; */
+  }
+
+ .box1 h4 {
+    color: white;
+ }
+
+ .box1 h4:hover{
+    color: green;
+ }
+
+
+ input:hover {
+    background-color: red;
+    color: white;
+ }
+ 
+ input:focus {
+    background-color: red;
+    color: white;
+ }
+
+/* .btn {
+   border: none;
+   background-color: aqua;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 3px;
+}
+.btn:hover {
+   background-color: rgb(3, 212, 212);
+
+}
+
+.btn:active {
+   background-color: rgb(11, 72, 238);
+
+}  */
+
+
+
+.box {
+   /* min-width: 200px; */
+   /* max-width: 500px; */
+   /* width: 500px; */
+   min-height: 50px;
+   overflow: scroll;
+   max-height: 400px;
+   background-color: aquamarine;
+}
+
+.child-box {
+   width: 250px;
+   height: 400px;
+   background-color: red;
+}
+
+.box2 {
+   min-width: 30px;
+   max-width: 100px;
+   background-color: peru;
+   max-height: 100px;
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+
+p {
+   text-wrap: nowrap;
+}
