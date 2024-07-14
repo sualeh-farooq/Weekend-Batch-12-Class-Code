@@ -1,0 +1,72 @@
+/* .box { */
+    /* width: max-content;
+    height: max-content;
+    background-color: aquamarine; */
+    /* border-width: 3px;
+    border-style: dotted;
+    border-color: blueviolet; */
+
+
+    /* Cover Four Sides */
+    /* padding: 5px; */
+
+    /* Top Bottom   ,  Right Left*/
+    /* padding: 5px 50px; */
+
+    /* Top , Right , Bottom , Left */
+    /* padding: 7px 10px 4px 8px ; */
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px; */
+
+    /* padding: 5px;
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+
+/* } */
+
+
+.inline-parent {
+    width: max-content;
+    height: max-content;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.inline-parent span {
+    background-color: rgb(62, 3, 156);
+    color: white;
+    /* margin: 20px; */
+    margin: 10px;
+
+    padding: 4px;
+
+}
+
+.box2 {
+    width: max-content;
+    height: max-content;
+    background-color: aquamarine;
+}
+
+
+.box {
+    width: max-content;
+    height: max-content;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px auto ;
+}
+
+body {
+    background: rgb(73,254,124);
+background: linear-gradient(90deg, rgba(73,254,124,1) 0%, rgba(64,253,238,1) 27%, rgba(155,130,125,1) 72%, rgba(237,25,24,1) 100%);
+}
+
+.cart_icon {
+    color: red;
+    font-size: large;
+}

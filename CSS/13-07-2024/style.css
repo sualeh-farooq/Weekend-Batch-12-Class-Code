@@ -99,18 +99,22 @@ h4 {
 .box {
    /* min-width: 200px; */
    /* max-width: 500px; */
-   /* width: 500px; */
+   /* width: 50%; */
    min-height: 50px;
-   overflow: scroll;
+   overflow-y: scroll;
+   overflow-x: hidden;
    max-height: 400px;
    background-color: aquamarine;
 }
 
 .child-box {
-   width: 250px;
-   height: 400px;
+   width: 50%;
+
+   height: 50%;
    background-color: red;
 }
+
+/*
 
 .box2 {
    min-width: 30px;
@@ -123,4 +127,4 @@ h4 {
 
 p {
    text-wrap: nowrap;
-}
+} */
