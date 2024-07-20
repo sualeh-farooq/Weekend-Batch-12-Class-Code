@@ -1,0 +1,57 @@
+.ind {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.product-card {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  /* box-shadow: 40px 20px 20px 5px  #777777; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+
+    /* border-radius: 100px; */
+    border-top-right-radius: 50px;
+    /* border-radius: 15px; */
+    /* border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px; */
+
+}
+
+
+body {
+    background-color: wheat;
+}
+
+
+/* .countries {
+    list-style-type:decimal;
+}
+
+
+.pak-cities {
+    list-style-type: lower-alpha;
+}
+
+.khi-area {
+    list-style-type: lower-roman;
+} */
+
+
+/* .countries {
+
+    margin-left: 50%;
+    list-style-image: url(assets/star_repo.svg);
+} */
+
+
+.countries {
+    /* list-style-position: inside; */
+    /* list-style-type: square; */
+    list-style: inside square;
+}
+
+.cities {
+    list-style-position: outside;
+}
