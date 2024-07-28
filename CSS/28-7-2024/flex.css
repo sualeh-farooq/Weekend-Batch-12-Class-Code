@@ -1,0 +1,65 @@
+.parent-container {
+    width: 100%;
+    background-color: wheat;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(86, 230, 101);
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: rgb(128, 0, 83);
+}
+
+.nav-container {
+    width: 100%;
+    background-color: wheat;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li  {
+    display: inline-block;
+
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-links li {
+    font-size: x-large;
+}

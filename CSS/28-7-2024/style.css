@@ -1,0 +1,194 @@
+
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+        bottom: 0px;
+ 
+}
+
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 130, 13);
+    position: relative;
+}
+
+.content {
+    border: 10px solid black;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+
+
+.main-content {
+    position: relative;
+}
+
+
+.user_icon {
+    position: absolute;
+    left: 8px;
+    font-size: 12px;
+    top: 5px;
+}
+.main-content input {
+    padding-left: 20px;
+}
+
+
+
+
+.con1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    padding: 10px;
+    display: inline-block;
+ 
+}
+
+
+.con2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 130, 13);
+    display: inline-block;
+    padding: 10px;
+
+}
+ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(232, 235, 178);
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}
+
+.links {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.btn-container {
+    float: right;
+}
+
+.logo-container {
+    float: left;
+}
+
+
+.img-container {
+    height: 400px;
+    width: 100%;
+}
+
+.img-container {
+    background-image: url('https://i.pinimg.com/originals/dd/a5/ae/dda5aec6282762bc58420f7fe30dabc5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-overlay {
+    height: 420px;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 0px;
+}
+
+
+.containerOne {
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .containerOne {
+        background-color: red;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 576px) {
+    .containerOne {
+        background-color: rgb(18, 47, 231);
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .containerOne {
+        background-color: rgb(23, 211, 2);
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .containerOne {
+        background-color: rgb(253, 37, 203);
+    }
+
+    .btn {
+        width: max-content;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .containerOne {
+        background-color: rgb(41, 249, 8);
+    }
+    .btn {
+        width: max-content;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .containerOne {
+        background-color: rgb(20, 144, 232);
+    }
+    .btn {
+        width: max-content;
+    }
+}
+
+

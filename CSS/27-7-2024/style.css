@@ -1,0 +1,128 @@
+.one {
+    empty-cells: show;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 128, 0);
+    position: absolute;
+    right: 0px;
+    left: 0px;
+
+}
+
+.parent {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    background-color: navy  ;
+    position: absolute;
+    z-index: -1;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 102, 36);
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0px;
+}
+
+.content {
+    border: 10px solid black;
+    padding: 10px;
+    margin-top: 100px;
+}
+ 
+
+.con1 {
+    background-color: aquamarine;
+    width: 200px;
+    height:  200px;
+    display: inline-block;
+}
+
+.con2 {
+    background-color: rgb(111, 236, 34);
+    width: 200px;
+    height:  200px;
+    display: inline-block;
+
+}
+
+
+
+.nav-menu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+
+
+
+.user-icon {
+    font-size: 10px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.inp-container {
+    position: relative;
+}
+
+.inp-container .input {
+    padding-left: 15px;
+}
+
+
+
+.nav-bar {
+    width: 100%;
+    background-color: wheat;
+    height: 50px;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+
+}
+
+.nav-menu {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.btn {
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+
+}
+
+.btn-parent {
+    float: right;
+}
+
+
+.img-contain {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(asset/car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
