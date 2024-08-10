@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(assets/fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf);
+}
+
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.main-nav {
+    background-color: #ececec !important;
+}
+
+.login-btn {
+    background: #007E85;
+    border: 0px;
+    text-wrap: nowrap;
+    font-family: 'myFont';
+
+}
+.login-btn:hover {
+    background: #026368;
+}
+
+.signup-btn {
+    color: #007E85;
+    background-color: transparent;
+    border: none;
+    text-wrap: nowrap;
+    font-family: 'myFont';
+
+}
+
+.signup-btn:hover {
+    color: #007E85;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+.nav-menu-items {
+    font-family: 'myFont';
+
+}
+
+
