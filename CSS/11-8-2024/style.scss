@@ -1,0 +1,50 @@
+
+// Mixins to prevent repeated code of element
+@mixin button-primary {
+  background-color: aqua;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 10px 20px;
+  color: black;
+  &:hover {
+    background-color: aquamarine;
+  }
+}
+
+
+// Varibles
+$primarColor: #007E85;
+
+
+.parent_card {
+  width: 700px;
+  height: 700px;
+  background-color: $primarColor;
+  +h1 {
+    color: black;
+  }
+  .child_card {
+    height: 200px;
+    width: 100%;
+    p {
+      color: purple;
+    }
+    .grand_child_card {
+      background-color: blue;
+      h5 {
+        color: antiquewhite;
+      }
+
+      button {
+        @include button-primary()
+      }
+    }
+  }
+}
+
+
+
+
+.btn-primary {
+  @include button-primary()
+}

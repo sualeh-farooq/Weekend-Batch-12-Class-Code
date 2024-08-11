@@ -1,0 +1,42 @@
+.parent_card {
+  width: 700px;
+  height: 700px;
+  background-color: #007E85;
+}
+.parent_card + h1 {
+  color: black;
+}
+.parent_card .child_card {
+  height: 200px;
+  width: 100%;
+}
+.parent_card .child_card p {
+  color: purple;
+}
+.parent_card .child_card .grand_child_card {
+  background-color: blue;
+}
+.parent_card .child_card .grand_child_card h5 {
+  color: antiquewhite;
+}
+.parent_card .child_card .grand_child_card button {
+  background-color: aqua;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 10px 20px;
+  color: black;
+}
+.parent_card .child_card .grand_child_card button:hover {
+  background-color: aquamarine;
+}
+
+.btn-primary {
+  background-color: aqua;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 10px 20px;
+  color: black;
+}
+.btn-primary:hover {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */
