@@ -1,0 +1,23 @@
+.parent1 {
+  background-color: "#ffd67f";
+  width: 100%;
+  height: 600px;
+}
+.parent1 .child1 {
+  background-color: rgb(127, 255, 148);
+  width: 50%;
+  height: 600px;
+}
+.parent1 .child1 .gchil1 {
+  background-color: rgb(169, 206, 34);
+  width: 50%;
+  height: 600px;
+}
+.parent1 .child1 .gchil1 button {
+  width: 100px;
+  padding: 10px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 6px;
+  background-color: rgb(228, 186, 0);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
