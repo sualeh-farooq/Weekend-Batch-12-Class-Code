@@ -1,0 +1,150 @@
+.heroSection {
+    background-image: url('assets/hero_bg.png');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+
+.imgParent {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.imgParent img {
+    height: 450px;
+    width: 450px;
+}
+
+.heroTextParent {
+    height: 100%; /*h-100*/
+    display: flex; /*d-flex*/
+    flex-direction: column; /*flex-column*/
+    justify-content: center; /*justify-content-center*/
+    gap: 30px;/*gap-4*/
+} 
+
+.heroTextParent h1 {
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+}
+
+
+.deliveryTypeSelection  {
+    border-radius: 16px;
+    height: 195px;
+    background-color: white;
+    padding: 20px;
+}
+
+.inputContainer {
+    position: relative;
+    flex: 2;
+
+}
+
+.inputContainer img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.inputContainer input {
+   padding-left: 30px;
+}
+
+.findFootBtn {
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    border-radius: 8px;
+    width: 200px;
+    padding: 12px 40px;
+    color: white;
+    border: none;
+}
+
+.deliveryTypeSelection .nav-link.active {
+    font-weight: 700;
+    background: #F172281A;
+    border: none;
+    border-radius: 8px;
+    color: #F17228;
+    padding: 10px 30px;
+}
+
+.deliveryTypeSelection .nav-link {
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: #757575;
+    padding: 10px 30px;
+}
+
+
+.footer {
+    background: #212121;
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+
+
+.cities_list {
+display: flex;
+justify-content: space-between;
+}
+
+.cities_list ul {
+    list-style-type: none;
+    width: 20%;
+    padding: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .inputContainer {
+        width: 100%
+    }
+
+        .findFootBtn {
+            width: 100%;
+        }
+
+        .heroTextParent  h1 {
+            font-size: 55px ;
+        }
+
+        .cities_list ul {
+            width: 50%;
+        }
+        
+        
+            .footer {
+                height: max-content;
+                pad: 20px;
+            }
+        
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .cities_list ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cities_list { 
+        flex-direction: column;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+}
+
