@@ -37,3 +37,13 @@ document.write('The Multiply of ' + num1 + " and " + num2 + " is " + Number(num1
 document.write('The Multiply of ' + num1 + " and " + num2 + " is " + Number(num1*num2) )
 
 
+var num2 = 5
+
+num2 = 10
+
+
+var celsius = 25
+
+var celsiusIntoFarenheit = (celsius * 9 / 5) + 32
+
+console.log(celsiusIntoFarenheit)
