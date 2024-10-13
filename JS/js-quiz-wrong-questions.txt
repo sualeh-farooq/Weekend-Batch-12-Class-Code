@@ -1,0 +1,12 @@
+Question 15. Which of these is a valid variable name in Javascript? 
+( Checkbox Required )
+
+"Question 23. How many times will the inner loop run in a nested loop with the following structure?
+
+for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 3; j++) {
+        // loop code
+    }
+}" Wrong Answer
+
+Question 28. What are the three important manipulations done in a for loop on a loop variable? wrong Answer
