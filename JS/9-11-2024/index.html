@@ -17,15 +17,40 @@
 
 
 
-    <!-- <img id="bulb" src="bulb-off.PNG" alt="">
-        <div>
-            <button onclick="turnOn()" >Turn On The Bulb</button>
-            <button onclick="turnOff()">Turn Off the Bulb</button>
-        </div> -->
+    <img id="bulb" src="bulb-off.PNG" alt="">
+    <div>
+        <button onclick="turnOn()">Turn On The Bulb</button>
+        <button onclick="turnOff()">Turn Off the Bulb</button>
+    </div>
 
-    <input type="text" onkeyup="checkCode()"  >
+    <input type="text" onkeyup="checkCode()">
+
+
+    
 
     <script src="app.js"></script>
+
+
+    <script>
+
+        var arr = ['H' , 'T']
+        var randomNum = Math.floor(Math.random * arr.length)  // 0 , 1
+
+
+        var userName1 = document.getElementById('user1').value  // Ali
+        var user1Selection = document.getElementById('user1Selection').value // H
+        var userName2 = document.getElementById('user2').value // Anus
+
+
+        if(user1Selection === arr[randomNum]) { 
+
+            document.write(`  ${userName1} is Winner  `)
+        } else {
+            document.write(`${userName2} is winner`)
+        }
+
+
+    </script>
 </body>
 
 </html>

@@ -11,6 +11,9 @@ function playerTwoKeys() {
 
 
 
+
+
+
 var leftAmon = 5
 
 
@@ -28,6 +31,8 @@ window.onkeydown = function() {
         leftAmon -= 15
         document.getElementById('amon').style.left = leftAmon + "px"
     }
+
+
     if(event.keyCode === 68) {
 
         document.getElementById('amon').classList.add('amon-fight')
