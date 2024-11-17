@@ -1,0 +1,31 @@
+.postCard {
+    flex: 1;
+
+}
+
+.listing-container {
+    flex: 2;
+}
+
+.main-container {
+    gap: 10rem;
+}
+
+.bgImagesContainer {
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+.postCardBody {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selectedImage  {
+    border: 4px solid black;
+}

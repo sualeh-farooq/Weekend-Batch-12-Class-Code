@@ -8,7 +8,6 @@ name = "Ali"; // update
 
 function changeImage() {
   console.log(event.target.src);
-
   event.target.src = "./car-run.gif";
 }
 
@@ -19,8 +18,18 @@ function submitUser() {
   var gender = document.getElementsByName("gender");
 
   var hobbiesList = document.getElementsByName("hobbies");
+
   var genderSelection;
   var hobbiesArr = [];
+
+  for(var i = 0; i < hobbiesList.length; i++) {
+    if(hobbiesList[i].checked) {
+        hobbiesArr.push(hobbiesList[i].value)
+    }
+  }
+
+  console.log(`The Selected Hobbies Are `)
+  console.log(hobbiesArr)
 
   for (var i = 0; i < gender.length; i++) {
     if (gender[i].checked) {
@@ -28,13 +37,13 @@ function submitUser() {
     }
   }
 
-  for (var i = 0; i < hobbiesList.length; i++) {
-    if (hobbiesList[i].checked) {
-      hobbiesArr.push(hobbiesList[i].value);
-    }
-  }
+  // for (var i = 0; i < hobbiesList.length; i++) {
+  //   if (hobbiesList[i].checked) {
+  //     hobbiesArr.push(hobbiesList[i].value);
+  //   }
+  // }
 
-  console.log(hobbiesArr);
+  // console.log(hobbiesArr);
 }
 
 function checkInput() {
@@ -63,3 +72,6 @@ function expandText() {
     seeLink.innerText = "See More";
   }
 }
+
+
+document.getElementsByName
