@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .resultWindow {
+            display: none;
+        }
+
+        .redText {
+            color: red;
+            font-weight: bold0;
+        }
+
+        .greenText {
+            color: green;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    
+    
+
+
+    <div id="quizWindow" >
+        <h4 id="question">Question will appear herse</h4>
+
+        <ul>
+            <li>
+                <input type="radio" id="option1" name="quizOption">
+                <label id="label1" for="option1">Some Option Here</label>
+            </li>
+            <li>
+                <input type="radio" id="option2" name="quizOption">
+                <label id="label2" for="option2">Some Option Here</label>
+            </li>
+            <li>
+                <input type="radio" id="option3" name="quizOption">
+                <label id="label3" for="option3">Some Option Here</label>
+            </li>
+            <li>
+                <input type="radio" id="option4" name="quizOption">
+                <label id="label4" for="option4">Some Option Here</label>
+            </li>
+        </ul>
+        <button onclick="next()">Next</button>
+    </div>
+
+
+    <div class="resultWindow"  id="resultWindow">
+        
+        <h4 id="announce" ></h4>
+
+        <h5 id="percentageShow" ></h5>
+
+        <table border="1px solid">
+            <tr>
+                <td  > Total Questions</td>
+                <td id="totalQue" > </td>
+            </tr>
+
+            <tr>
+                <td  > Correct Questions</td>
+                <td id="correctQue" > </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
