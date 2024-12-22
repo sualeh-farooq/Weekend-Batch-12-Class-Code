@@ -7,7 +7,7 @@ var signupPass = document.getElementById("signupPass");
 
 var emailRegex = /^\S+@\S+\.\S+$/;
 
-var nameRegex = /^[a-zA-Z]+$/;
+var nameRegex = /^[a-zA-Z]+$/;  // only string characters
 
 var numberRegex = /^((\+92)?(0092)?(92)?(0)?)(3)([0-9]{9})$/;  
 
@@ -16,7 +16,6 @@ function userSignup() {
     if (emailRegex.test(signupEmail.value)) {
       if (numberRegex.test(signupPhone.value)) {
         if (signupPass.value.trim() !== "") {
-          0;
 
           var userInfo = {
             name: signupName.value,
@@ -36,6 +35,8 @@ function userSignup() {
           setTimeout(function () {
             window.location.href = "login.html";
           }, 2000);
+
+          
         } else {
           Swal.fire({
             title: "Invalid Password",
