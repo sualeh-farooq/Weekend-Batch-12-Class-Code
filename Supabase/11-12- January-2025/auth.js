@@ -2,14 +2,12 @@ let signupEmail = document.getElementById('signup_email')
 let signupPass = document.getElementById('signup_password')
 let signupBtn = document.getElementById('signup-btn')
 let signupBtnLoader = document.getElementById('loading_btn_spinner')
-
 let loginBtn = document.getElementById('login_btn')
 let loginEmail = document.getElementById('login_email')
 let loginPass = document.getElementById('login_password')
-
 let sessionBtn = document.getElementById('session_btn')
-
 let logoutBtn = document.getElementById('logout_btn')
+
 
 async function signup() {
   try {
@@ -42,7 +40,9 @@ async function login() {
           if(error) throw error
           if(data) {
             console.log(data)
-            alert('Sign in Succesfull')
+            // alert('Sign in Succesfull')
+
+              window.location.href = '/dashboard.html'
           }
           return data
     } catch (error) {
@@ -71,14 +71,29 @@ async function logout() {
     try {
         const { error } = await supabase.auth.signOut()
         if(error) throw error
+
+        window.location.href = '/login.html'
     } catch (error) {
     console.log(error)        
     }
 }
 
+if(sessionBtn) {
+  sessionBtn.addEventListener('click' , checkSession)
 
-sessionBtn.addEventListener('click' , checkSession)
-loginBtn.addEventListener('click' , login)
+}
+
+if(loginBtn) {
+  loginBtn.addEventListener('click' , login)
+
+}
+
+if(logoutBtn) {
+  logoutBtn.addEventListener('click' , logout)
+
+}
 
 
-logoutBtn.addEventListener('click' , logout)
+if(signupBtn) {
+  signupBtn.addEventListener('click' , signup)
+}
