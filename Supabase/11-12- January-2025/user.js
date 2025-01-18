@@ -46,7 +46,7 @@ async function getUsers() {
     const { data, error } = await supabase.from("users").select();
     if (error) throw error;
 
-    console.log(data);
+    userTableBody.innerHTML = ''
 
     if (data) {
       data.map((val, index) => {
@@ -67,25 +67,54 @@ async function getUsers() {
   }
 }
 
+async function deleteUser(userId) {
+  try {
+    Swal.fire({
+      title: "Are you sure want to delete the user",
+      showCancelButton: true,
+      confirmButtonText: "Delete",
+    }).then(async (result) => {
+      if (result.isConfirmed) {
+        const { data, error } = await supabase
+          .from("users")
+          .delete()
+          .eq("id", userId)
+          .select();
 
-async function deleteUser() {
-  console.log('User')
+        if (error) throw error;
+      
+
+        if(data) {
+          Swal.fire({
+            icon: 'success' ,
+            title: 'User Deleted Succesfully '
+          })
+
+          getUsers()
+        }
+
+       
+
+      }
+    });
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 let deleteBtn = document.getElementById("delete_user");
 
-
-if(deleteBtn) {
-  deleteBtn.addEventListener('click' , function() {
-    let deleteUserId = localStorage.getItem('deleteUserId')
-    console.log(deleteUserId)
-  })
-  
+if (deleteBtn) {
+  deleteBtn.addEventListener("click", function () {
+    let deleteUserId = localStorage.getItem("deleteUserId");
+    console.log(deleteUserId);
+  });
 }
 
 
-
-
-addUserBtn.addEventListener("click", addUser);
+if(addUserBtn) {
+  addUserBtn.addEventListener("click", addUser);
+}
 
 window.onload = getUsers();
+window.deleteUser = deleteUser;

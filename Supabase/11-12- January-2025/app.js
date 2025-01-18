@@ -8,18 +8,18 @@ async function checkSession() {
 
     const { session } = data;   
 
-    // it will first check the session , if it's true then it will check Auth Page
+    // // it will first check the session , if it's true then it will check Auth Page
     if(session) {
-        if(isAuthPage) {
-            window.location.href = '/dashboard.html'
-        }
+      if(isAuthPage) {
+        window.location.href = '/dashboard.html'
+    }
     } else {
         if(!isAuthPage) {
             window.location.href = '/login.html'
         }
     }
 
-    console.log(session);
+    // console.log(session);
   } catch (error) {
     console.log(error);
   }

@@ -1,0 +1,41 @@
+// Post Table
+
+id , 
+content ,
+imageUrl ,
+userId ,
+timeStamp ,
+
+
+// users 
+
+id ,
+name ,
+last name,
+email , 
+postsNo: ,
+
+
+
+// add post flow
+
+	post add => insert , intial imageURL = NULL,
+	if(data) {
+	if(file) {
+	upload Image => public/${user_uid}-${data.id}
+
+}	
+}
+
+	.then =>>
+	
+	public URL => update in post row
+
+
+
+
+
+
+
+
+

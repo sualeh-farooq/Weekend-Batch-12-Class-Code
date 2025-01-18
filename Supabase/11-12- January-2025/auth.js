@@ -42,7 +42,7 @@ async function login() {
             console.log(data)
             // alert('Sign in Succesfull')
 
-              window.location.href = '/dashboard.html'
+              // window.location.href = '/dashboard.html'
           }
           return data
     } catch (error) {
