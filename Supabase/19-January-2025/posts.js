@@ -109,6 +109,9 @@ async function loadPosts() {
 
           let myPost = false;
 
+          console.log(postData)
+          console.log(usersData)
+
           postData.forEach((post) => {
             let currentUser = usersMap[post.userId];
 
