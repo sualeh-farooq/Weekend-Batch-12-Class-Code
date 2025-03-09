@@ -28,16 +28,16 @@ export default function App() {
   // }
 
   const [count , setCount] = useState(0)
-  const [todos , setTodos] = useState([{todo: 'First' , id: count }])
+  const [todos , setTodos] = useState([])
   const [text , setText] = useState('')
 
   function addTodo() {
-
     setCount(count + 1)
     setTodos([...todos , {todo: text , id: count}])
   }
 
   function deleteTodo(id){
+    console.log(id)
     setTodos(todos.filter((todo) => todo.id !== id))
   }
   return (
