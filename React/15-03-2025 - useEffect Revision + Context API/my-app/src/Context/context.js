@@ -10,11 +10,14 @@ export function MyProvider({children}){
 
     const [count , setCount]  = useState(0) // Global State 
 
+    const [products , setProducts] = useState([])
+
 
     const store = {
         count , 
-
-        updateCount: ()=>setCount(count + 1)
+        products ,
+        updateCount: ()=>setCount(count + 1),
+        updateProducts: (data)=>setProducts(data)
     }
 
 

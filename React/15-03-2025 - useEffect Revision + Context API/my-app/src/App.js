@@ -5,6 +5,9 @@ import CustomComponent from './components/myCustom';
 import {useState} from 'react'
 
 import Dashboard from './components/dashboard copy';
+import User from './components/user';
+import Profile from './components/profile';
+
 
 function App() {
 
@@ -16,6 +19,8 @@ function App() {
   const [inpText , setInpText] = useState('')
 
   const [showComp , setShowComp] = useState(true)
+
+  
 
 
 
@@ -44,7 +49,21 @@ function App() {
     <button onClick={()=>setShowComp(!showComp)} >Toggle Component</button> */}
 
 
-    <Dashboard />
+    {/* <Dashboard /> */}
+
+
+    <button onClick={()=>setShowComp(!showComp)} > Toggle Between Component </button>
+<br />
+<br />
+<br />
+<br />
+
+    {showComp ? <User /> : <Profile />}
+    
+
+
+
+
     </>
   );
 }
