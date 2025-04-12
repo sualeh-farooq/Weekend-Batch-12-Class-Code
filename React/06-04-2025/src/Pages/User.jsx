@@ -9,8 +9,6 @@ export default function Users(){
     const [isLoading , setIsLoading ] = useState(false)
     const [usersData , setUsersData] = useState([])
 
-   
-
     useEffect(()=>{
         userDetails()
     }, [])
