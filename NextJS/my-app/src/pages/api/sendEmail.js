@@ -6,12 +6,14 @@ export default async function handler(req,res) {
             // extract the information
             const {name , email , message} = req.body
 
+            // create mailoptions / configuration
             var mailOptions = {
                 from: email,
-                to: "",
+                to: "sualehfarooq65@gmail.com",
                 replyTo: email,
                 subject: "Some Message from My Custom App",
                 text: message,
+                
               };
 
               try {
@@ -20,8 +22,8 @@ export default async function handler(req,res) {
                     port: 587,
                     secure: false, 
                     auth: {
-                        user: "", 
-                        pass: "" 
+                        user: "sualehfarooq65@gmail.com", 
+                        pass: "djgvmfiydmtetopa"
                     },
                     tls: {
                         rejectUnauthorized: false

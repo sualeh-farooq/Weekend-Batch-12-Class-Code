@@ -1,11 +1,14 @@
 import { Link } from 'react-router'
 import './App.css'
 import { useState , useEffect } from 'react'
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 
 function App() {
   const [city , setCity] = useState([])
   const [inpText , setInpText] = useState('')
+  const [value, setValue] = useState('');
 
   // useEffect(()=>{
   //   console.log('I will run on every render')
@@ -48,6 +51,10 @@ function App() {
 
      <Link  to="/products" >Products</Link> <br />
      <Link  to="/contact" >Contact Us</Link> <br />
+
+
+    <ReactQuill theme="snow" value={value} onChange={setValue} />
+
     </>
   )
 }

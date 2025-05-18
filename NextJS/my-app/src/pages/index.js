@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 import { useState } from "react";
+import Spinner from "react-bootstrap";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +23,11 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const [isLoading , setIsLoading] = useState(false)
+
   const handleForm = async () => {
+   try {
+    setIsLoading(true)
     const response = await fetch("/api/sendEmail", {
       method: "POST",
       headers: {
@@ -29,13 +35,16 @@ export default function Home() {
       },
       body: JSON.stringify({ name, email, message }),
     });
-
-
     if(response.ok) {
       alert('Email Sent Succesfully')
     } else {
       alert('Something went wrong')
     }
+   } catch (error) {
+
+   } finally {
+    setIsLoading(false)
+   }
   }; 
 
   return (
@@ -85,8 +94,9 @@ export default function Home() {
             />
           </Form.Group>
 
-          <Button variant="primary" type="button" onClick={handleForm}>
-            Send Email
+
+          <Button disabled={isLoading}  variant="primary" type="button" onClick={handleForm}>
+          {isLoading  ? 'Sending Email ......' : 'Send Email'}
           </Button>
         </Form>
       </main>
