@@ -1,3 +1,2 @@
-data=Anus
-data=Saad
-data=aLI
+data=ABC
+data=XYZ
