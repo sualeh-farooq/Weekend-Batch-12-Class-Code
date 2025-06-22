@@ -94,6 +94,7 @@ app.post("/api/user/create", upload.single("image"), async (req, res) => {
     return res.send({ success: false,  message: "Image is required" });
   }
 
+  
   const uploadImage = await uploadImageInCloudinary(
     req.file.buffer,
     req.file.originalname
